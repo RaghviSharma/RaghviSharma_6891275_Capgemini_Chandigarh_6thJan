@@ -1,0 +1,9 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day23_16Feb26\TestPerojectNUnit\bin\Debug\net10.0\.msCoverageSourceRootsMapping_TestProjectNUnit
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day23_16Feb26\TestPerojectNUnit\bin\Debug\net10.0\CoverletSourceRootsMapping_TestProjectNUnit
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day23_16Feb26\TestPerojectNUnit\obj\Debug\net10.0\TestProjectNUnit.csproj.AssemblyReference.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day23_16Feb26\TestPerojectNUnit\obj\Debug\net10.0\TestProjectNUnit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day23_16Feb26\TestPerojectNUnit\obj\Debug\net10.0\TestProjectNUnit.gentestingplatformentrypointinputcache.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day23_16Feb26\TestPerojectNUnit\obj\Debug\net10.0\TestProjectNUnit.genautoregisteredextensionsinputcache.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day23_16Feb26\TestPerojectNUnit\obj\Debug\net10.0\TestProjectNUnit.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day23_16Feb26\TestPerojectNUnit\obj\Debug\net10.0\TestProjectNUnit.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day23_16Feb26\TestPerojectNUnit\obj\Debug\net10.0\TestProjectNUnit.csproj.CoreCompileInputs.cache

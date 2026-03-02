@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Not Divisible\bin\Debug\net10.0\Not Divisible.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Not Divisible\bin\Debug\net10.0\Not Divisible.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Not Divisible\bin\Debug\net10.0\Not Divisible.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Not Divisible\bin\Debug\net10.0\Not Divisible.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Not Divisible\bin\Debug\net10.0\Not Divisible.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Not Divisible\obj\Debug\net10.0\Not Divisible.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Not Divisible\obj\Debug\net10.0\Not Divisible.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Not Divisible\obj\Debug\net10.0\Not Divisible.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Not Divisible\obj\Debug\net10.0\Not Divisible.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Not Divisible\obj\Debug\net10.0\Not Divisible.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Not Divisible\obj\Debug\net10.0\refint\Not Divisible.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Not Divisible\obj\Debug\net10.0\Not Divisible.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Not Divisible\obj\Debug\net10.0\Not Divisible.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Not Divisible\obj\Debug\net10.0\ref\Not Divisible.dll

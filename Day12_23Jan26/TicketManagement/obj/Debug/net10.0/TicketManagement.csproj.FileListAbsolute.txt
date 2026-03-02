@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\TicketManagement\bin\Debug\net10.0\TicketManagement.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\TicketManagement\bin\Debug\net10.0\TicketManagement.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\TicketManagement\bin\Debug\net10.0\TicketManagement.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\TicketManagement\bin\Debug\net10.0\TicketManagement.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\TicketManagement\bin\Debug\net10.0\TicketManagement.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\TicketManagement\obj\Debug\net10.0\TicketManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\TicketManagement\obj\Debug\net10.0\TicketManagement.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\TicketManagement\obj\Debug\net10.0\TicketManagement.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\TicketManagement\obj\Debug\net10.0\TicketManagement.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\TicketManagement\obj\Debug\net10.0\TicketManagement.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\TicketManagement\obj\Debug\net10.0\refint\TicketManagement.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\TicketManagement\obj\Debug\net10.0\TicketManagement.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\TicketManagement\obj\Debug\net10.0\TicketManagement.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\TicketManagement\obj\Debug\net10.0\ref\TicketManagement.dll

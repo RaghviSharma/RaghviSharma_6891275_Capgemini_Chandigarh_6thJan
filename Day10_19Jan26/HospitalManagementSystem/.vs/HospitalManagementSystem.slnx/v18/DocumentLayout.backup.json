@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10184740-5065-454F-BD9E-CBAFDE2ECF54}|HospitalManagementSystem.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day10_19jan26\\hospitalmanagementsystem\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10184740-5065-454F-BD9E-CBAFDE2ECF54}|HospitalManagementSystem.csproj|solutionrelative:appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10184740-5065-454F-BD9E-CBAFDE2ECF54}|HospitalManagementSystem.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day10_19jan26\\hospitalmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10184740-5065-454F-BD9E-CBAFDE2ECF54}|HospitalManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10184740-5065-454F-BD9E-CBAFDE2ECF54}|HospitalManagementSystem.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day10_19jan26\\hospitalmanagementsystem\\nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10184740-5065-454F-BD9E-CBAFDE2ECF54}|HospitalManagementSystem.csproj|solutionrelative:nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10184740-5065-454F-BD9E-CBAFDE2ECF54}|HospitalManagementSystem.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day10_19jan26\\hospitalmanagementsystem\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10184740-5065-454F-BD9E-CBAFDE2ECF54}|HospitalManagementSystem.csproj|solutionrelative:medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10184740-5065-454F-BD9E-CBAFDE2ECF54}|HospitalManagementSystem.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day10_19jan26\\hospitalmanagementsystem\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10184740-5065-454F-BD9E-CBAFDE2ECF54}|HospitalManagementSystem.csproj|solutionrelative:doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10184740-5065-454F-BD9E-CBAFDE2ECF54}|HospitalManagementSystem.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day10_19jan26\\hospitalmanagementsystem\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10184740-5065-454F-BD9E-CBAFDE2ECF54}|HospitalManagementSystem.csproj|solutionrelative:patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10184740-5065-454F-BD9E-CBAFDE2ECF54}|HospitalManagementSystem.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day10_19jan26\\hospitalmanagementsystem\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10184740-5065-454F-BD9E-CBAFDE2ECF54}|HospitalManagementSystem.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\Person.cs",
+              "RelativeDocumentMoniker": "Person.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\Person.cs",
+              "RelativeToolTip": "Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T05:23:41.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\Patient.cs",
+              "RelativeDocumentMoniker": "Patient.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\Patient.cs",
+              "RelativeToolTip": "Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T05:23:09.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\Doctor.cs",
+              "RelativeDocumentMoniker": "Doctor.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\Doctor.cs",
+              "RelativeToolTip": "Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T05:22:20.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Nurse.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\Nurse.cs",
+              "RelativeDocumentMoniker": "Nurse.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\Nurse.cs",
+              "RelativeToolTip": "Nurse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T05:20:57.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "MedicalRecord.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\MedicalRecord.cs",
+              "RelativeToolTip": "MedicalRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T05:20:38.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\Appointment.cs",
+              "RelativeDocumentMoniker": "Appointment.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\Appointment.cs",
+              "RelativeToolTip": "Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T05:20:14.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\HospitalManagementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T05:19:28.632Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

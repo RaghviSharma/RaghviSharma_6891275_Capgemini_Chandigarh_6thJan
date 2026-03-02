@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\FindSumOfPairs\bin\Debug\net10.0\FindSumOfPairs.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\FindSumOfPairs\bin\Debug\net10.0\FindSumOfPairs.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\FindSumOfPairs\bin\Debug\net10.0\FindSumOfPairs.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\FindSumOfPairs\bin\Debug\net10.0\FindSumOfPairs.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\FindSumOfPairs\bin\Debug\net10.0\FindSumOfPairs.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\FindSumOfPairs\obj\Debug\net10.0\FindSumOfPairs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\FindSumOfPairs\obj\Debug\net10.0\FindSumOfPairs.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\FindSumOfPairs\obj\Debug\net10.0\FindSumOfPairs.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\FindSumOfPairs\obj\Debug\net10.0\FindSumOfPairs.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\FindSumOfPairs\obj\Debug\net10.0\FindSumOfPairs.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\FindSumOfPairs\obj\Debug\net10.0\refint\FindSumOfPairs.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\FindSumOfPairs\obj\Debug\net10.0\FindSumOfPairs.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\FindSumOfPairs\obj\Debug\net10.0\FindSumOfPairs.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\FindSumOfPairs\obj\Debug\net10.0\ref\FindSumOfPairs.dll

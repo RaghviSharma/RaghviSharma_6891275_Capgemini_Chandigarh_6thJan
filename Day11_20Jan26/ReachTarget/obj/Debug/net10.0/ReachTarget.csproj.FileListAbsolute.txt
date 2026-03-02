@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\ReachTarget\bin\Debug\net10.0\ReachTarget.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\ReachTarget\bin\Debug\net10.0\ReachTarget.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\ReachTarget\bin\Debug\net10.0\ReachTarget.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\ReachTarget\bin\Debug\net10.0\ReachTarget.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\ReachTarget\bin\Debug\net10.0\ReachTarget.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\ReachTarget\obj\Debug\net10.0\ReachTarget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\ReachTarget\obj\Debug\net10.0\ReachTarget.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\ReachTarget\obj\Debug\net10.0\ReachTarget.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\ReachTarget\obj\Debug\net10.0\ReachTarget.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\ReachTarget\obj\Debug\net10.0\ReachTarget.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\ReachTarget\obj\Debug\net10.0\refint\ReachTarget.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\ReachTarget\obj\Debug\net10.0\ReachTarget.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\ReachTarget\obj\Debug\net10.0\ReachTarget.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\ReachTarget\obj\Debug\net10.0\ref\ReachTarget.dll

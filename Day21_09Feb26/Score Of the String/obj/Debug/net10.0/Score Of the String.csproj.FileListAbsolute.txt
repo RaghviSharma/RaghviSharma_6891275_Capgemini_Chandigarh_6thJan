@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Score Of the String\bin\Debug\net10.0\Score Of the String.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Score Of the String\bin\Debug\net10.0\Score Of the String.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Score Of the String\bin\Debug\net10.0\Score Of the String.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Score Of the String\bin\Debug\net10.0\Score Of the String.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Score Of the String\bin\Debug\net10.0\Score Of the String.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Score Of the String\obj\Debug\net10.0\Score Of the String.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Score Of the String\obj\Debug\net10.0\Score Of the String.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Score Of the String\obj\Debug\net10.0\Score Of the String.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Score Of the String\obj\Debug\net10.0\Score Of the String.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Score Of the String\obj\Debug\net10.0\Score Of the String.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Score Of the String\obj\Debug\net10.0\refint\Score Of the String.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Score Of the String\obj\Debug\net10.0\Score Of the String.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Score Of the String\obj\Debug\net10.0\Score Of the String.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Score Of the String\obj\Debug\net10.0\ref\Score Of the String.dll

@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day18_03Feb26\Location Code Update in Invoice Numbers\bin\Debug\net10.0\Location Code Update in Invoice Numbers.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day18_03Feb26\Location Code Update in Invoice Numbers\bin\Debug\net10.0\Location Code Update in Invoice Numbers.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day18_03Feb26\Location Code Update in Invoice Numbers\bin\Debug\net10.0\Location Code Update in Invoice Numbers.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day18_03Feb26\Location Code Update in Invoice Numbers\bin\Debug\net10.0\Location Code Update in Invoice Numbers.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day18_03Feb26\Location Code Update in Invoice Numbers\bin\Debug\net10.0\Location Code Update in Invoice Numbers.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day18_03Feb26\Location Code Update in Invoice Numbers\obj\Debug\net10.0\Location Code Update in Invoice Numbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day18_03Feb26\Location Code Update in Invoice Numbers\obj\Debug\net10.0\Location Code Update in Invoice Numbers.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day18_03Feb26\Location Code Update in Invoice Numbers\obj\Debug\net10.0\Location Code Update in Invoice Numbers.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day18_03Feb26\Location Code Update in Invoice Numbers\obj\Debug\net10.0\Location Code Update in Invoice Numbers.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day18_03Feb26\Location Code Update in Invoice Numbers\obj\Debug\net10.0\Location Code Update in Invoice Numbers.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day18_03Feb26\Location Code Update in Invoice Numbers\obj\Debug\net10.0\refint\Location Code Update in Invoice Numbers.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day18_03Feb26\Location Code Update in Invoice Numbers\obj\Debug\net10.0\Location Code Update in Invoice Numbers.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day18_03Feb26\Location Code Update in Invoice Numbers\obj\Debug\net10.0\Location Code Update in Invoice Numbers.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day18_03Feb26\Location Code Update in Invoice Numbers\obj\Debug\net10.0\ref\Location Code Update in Invoice Numbers.dll

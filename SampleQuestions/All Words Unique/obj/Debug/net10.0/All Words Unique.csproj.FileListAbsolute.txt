@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All Words Unique\bin\Debug\net10.0\All Words Unique.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All Words Unique\bin\Debug\net10.0\All Words Unique.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All Words Unique\bin\Debug\net10.0\All Words Unique.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All Words Unique\bin\Debug\net10.0\All Words Unique.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All Words Unique\bin\Debug\net10.0\All Words Unique.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All Words Unique\obj\Debug\net10.0\All Words Unique.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All Words Unique\obj\Debug\net10.0\All Words Unique.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All Words Unique\obj\Debug\net10.0\All Words Unique.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All Words Unique\obj\Debug\net10.0\All Words Unique.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All Words Unique\obj\Debug\net10.0\All Words Unique.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All Words Unique\obj\Debug\net10.0\refint\All Words Unique.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All Words Unique\obj\Debug\net10.0\All Words Unique.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All Words Unique\obj\Debug\net10.0\All Words Unique.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All Words Unique\obj\Debug\net10.0\ref\All Words Unique.dll

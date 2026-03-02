@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\EligibleForVote\bin\Debug\net10.0\EligibleForVote.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\EligibleForVote\bin\Debug\net10.0\EligibleForVote.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\EligibleForVote\bin\Debug\net10.0\EligibleForVote.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\EligibleForVote\bin\Debug\net10.0\EligibleForVote.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\EligibleForVote\bin\Debug\net10.0\EligibleForVote.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\EligibleForVote\obj\Debug\net10.0\EligibleForVote.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\EligibleForVote\obj\Debug\net10.0\EligibleForVote.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\EligibleForVote\obj\Debug\net10.0\EligibleForVote.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\EligibleForVote\obj\Debug\net10.0\EligibleForVote.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\EligibleForVote\obj\Debug\net10.0\EligibleForVote.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\EligibleForVote\obj\Debug\net10.0\refint\EligibleForVote.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\EligibleForVote\obj\Debug\net10.0\EligibleForVote.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\EligibleForVote\obj\Debug\net10.0\EligibleForVote.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\EligibleForVote\obj\Debug\net10.0\ref\EligibleForVote.dll

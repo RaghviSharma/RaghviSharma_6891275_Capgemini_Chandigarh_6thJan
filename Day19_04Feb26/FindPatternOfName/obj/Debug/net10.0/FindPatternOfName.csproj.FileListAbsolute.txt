@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\FindPatternOfName\bin\Debug\net10.0\FindPatternOfName.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\FindPatternOfName\bin\Debug\net10.0\FindPatternOfName.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\FindPatternOfName\bin\Debug\net10.0\FindPatternOfName.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\FindPatternOfName\bin\Debug\net10.0\FindPatternOfName.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\FindPatternOfName\bin\Debug\net10.0\FindPatternOfName.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\FindPatternOfName\obj\Debug\net10.0\FindPatternOfName.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\FindPatternOfName\obj\Debug\net10.0\FindPatternOfName.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\FindPatternOfName\obj\Debug\net10.0\FindPatternOfName.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\FindPatternOfName\obj\Debug\net10.0\FindPatternOfName.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\FindPatternOfName\obj\Debug\net10.0\FindPatternOfName.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\FindPatternOfName\obj\Debug\net10.0\refint\FindPatternOfName.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\FindPatternOfName\obj\Debug\net10.0\FindPatternOfName.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\FindPatternOfName\obj\Debug\net10.0\FindPatternOfName.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\FindPatternOfName\obj\Debug\net10.0\ref\FindPatternOfName.dll

@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\RepeatedElement\bin\Debug\net10.0\RepeatedElement.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\RepeatedElement\bin\Debug\net10.0\RepeatedElement.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\RepeatedElement\bin\Debug\net10.0\RepeatedElement.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\RepeatedElement\bin\Debug\net10.0\RepeatedElement.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\RepeatedElement\bin\Debug\net10.0\RepeatedElement.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\RepeatedElement\obj\Debug\net10.0\RepeatedElement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\RepeatedElement\obj\Debug\net10.0\RepeatedElement.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\RepeatedElement\obj\Debug\net10.0\RepeatedElement.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\RepeatedElement\obj\Debug\net10.0\RepeatedElement.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\RepeatedElement\obj\Debug\net10.0\RepeatedElement.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\RepeatedElement\obj\Debug\net10.0\refint\RepeatedElement.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\RepeatedElement\obj\Debug\net10.0\RepeatedElement.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\RepeatedElement\obj\Debug\net10.0\RepeatedElement.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\RepeatedElement\obj\Debug\net10.0\ref\RepeatedElement.dll

@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Practice\bin\Debug\net10.0\Practice.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Practice\bin\Debug\net10.0\Practice.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Practice\bin\Debug\net10.0\Practice.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Practice\bin\Debug\net10.0\Practice.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Practice\bin\Debug\net10.0\Practice.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Practice\obj\Debug\net10.0\Practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Practice\obj\Debug\net10.0\Practice.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Practice\obj\Debug\net10.0\Practice.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Practice\obj\Debug\net10.0\Practice.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Practice\obj\Debug\net10.0\Practice.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Practice\obj\Debug\net10.0\refint\Practice.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Practice\obj\Debug\net10.0\Practice.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Practice\obj\Debug\net10.0\Practice.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Practice\obj\Debug\net10.0\ref\Practice.dll

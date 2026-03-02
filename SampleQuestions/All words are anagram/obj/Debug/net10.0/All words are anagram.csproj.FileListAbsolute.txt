@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All words are anagram\bin\Debug\net10.0\All words are anagram.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All words are anagram\bin\Debug\net10.0\All words are anagram.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All words are anagram\bin\Debug\net10.0\All words are anagram.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All words are anagram\bin\Debug\net10.0\All words are anagram.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All words are anagram\bin\Debug\net10.0\All words are anagram.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All words are anagram\obj\Debug\net10.0\All words are anagram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All words are anagram\obj\Debug\net10.0\All words are anagram.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All words are anagram\obj\Debug\net10.0\All words are anagram.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All words are anagram\obj\Debug\net10.0\All words are anagram.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All words are anagram\obj\Debug\net10.0\All words are anagram.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All words are anagram\obj\Debug\net10.0\refint\All words are anagram.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All words are anagram\obj\Debug\net10.0\All words are anagram.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All words are anagram\obj\Debug\net10.0\All words are anagram.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\All words are anagram\obj\Debug\net10.0\ref\All words are anagram.dll

@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Duplicate Elements\bin\Debug\net10.0\Duplicate Elements.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Duplicate Elements\bin\Debug\net10.0\Duplicate Elements.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Duplicate Elements\bin\Debug\net10.0\Duplicate Elements.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Duplicate Elements\bin\Debug\net10.0\Duplicate Elements.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Duplicate Elements\bin\Debug\net10.0\Duplicate Elements.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Duplicate Elements\obj\Debug\net10.0\Duplicate Elements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Duplicate Elements\obj\Debug\net10.0\Duplicate Elements.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Duplicate Elements\obj\Debug\net10.0\Duplicate Elements.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Duplicate Elements\obj\Debug\net10.0\Duplicate Elements.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Duplicate Elements\obj\Debug\net10.0\Duplicate Elements.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Duplicate Elements\obj\Debug\net10.0\refint\Duplicate Elements.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Duplicate Elements\obj\Debug\net10.0\Duplicate Elements.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Duplicate Elements\obj\Debug\net10.0\Duplicate Elements.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Duplicate Elements\obj\Debug\net10.0\ref\Duplicate Elements.dll

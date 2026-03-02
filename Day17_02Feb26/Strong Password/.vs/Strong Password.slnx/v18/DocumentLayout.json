@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day17_02Feb26\\Strong Password\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28AE9126-9AB0-40E5-804F-D92AE8841BBA}|Strong Password.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day17_02feb26\\strong password\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AE9126-9AB0-40E5-804F-D92AE8841BBA}|Strong Password.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28AE9126-9AB0-40E5-804F-D92AE8841BBA}|Strong Password.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day17_02feb26\\strong password\\userprogramcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AE9126-9AB0-40E5-804F-D92AE8841BBA}|Strong Password.csproj|solutionrelative:userprogramcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserProgramCode.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day17_02Feb26\\Strong Password\\UserProgramCode.cs",
+              "RelativeDocumentMoniker": "UserProgramCode.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day17_02Feb26\\Strong Password\\UserProgramCode.cs",
+              "RelativeToolTip": "UserProgramCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T08:46:53.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day17_02Feb26\\Strong Password\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day17_02Feb26\\Strong Password\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T08:45:59.482Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Score A string\bin\Debug\net10.0\Score A string.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Score A string\bin\Debug\net10.0\Score A string.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Score A string\bin\Debug\net10.0\Score A string.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Score A string\bin\Debug\net10.0\Score A string.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Score A string\bin\Debug\net10.0\Score A string.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Score A string\obj\Debug\net10.0\Score A string.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Score A string\obj\Debug\net10.0\Score A string.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Score A string\obj\Debug\net10.0\Score A string.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Score A string\obj\Debug\net10.0\Score A string.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Score A string\obj\Debug\net10.0\Score A string.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Score A string\obj\Debug\net10.0\refint\Score A string.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Score A string\obj\Debug\net10.0\Score A string.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Score A string\obj\Debug\net10.0\Score A string.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Score A string\obj\Debug\net10.0\ref\Score A string.dll

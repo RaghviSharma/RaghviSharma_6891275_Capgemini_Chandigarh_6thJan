@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\Closest square\obj\Debug\net10.0\Closest square.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\Closest square\obj\Debug\net10.0\Closest square.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\Closest square\obj\Debug\net10.0\Closest square.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\Closest square\obj\Debug\net10.0\Closest square.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\Closest square\bin\Debug\net10.0\Closest square.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\Closest square\bin\Debug\net10.0\Closest square.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\Closest square\bin\Debug\net10.0\Closest square.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\Closest square\bin\Debug\net10.0\Closest square.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\Closest square\bin\Debug\net10.0\Closest square.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\Closest square\obj\Debug\net10.0\Closest square.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\Closest square\obj\Debug\net10.0\refint\Closest square.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\Closest square\obj\Debug\net10.0\Closest square.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\Closest square\obj\Debug\net10.0\Closest square.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day19_05Feb26\Closest square\obj\Debug\net10.0\ref\Closest square.dll

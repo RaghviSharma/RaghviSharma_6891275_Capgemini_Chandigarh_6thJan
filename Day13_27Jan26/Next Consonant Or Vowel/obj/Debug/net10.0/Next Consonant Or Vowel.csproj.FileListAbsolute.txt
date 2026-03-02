@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Next Consonant Or Vowel\bin\Debug\net10.0\Next Consonant Or Vowel.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Next Consonant Or Vowel\bin\Debug\net10.0\Next Consonant Or Vowel.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Next Consonant Or Vowel\bin\Debug\net10.0\Next Consonant Or Vowel.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Next Consonant Or Vowel\bin\Debug\net10.0\Next Consonant Or Vowel.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Next Consonant Or Vowel\bin\Debug\net10.0\Next Consonant Or Vowel.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Next Consonant Or Vowel\obj\Debug\net10.0\Next Consonant Or Vowel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Next Consonant Or Vowel\obj\Debug\net10.0\Next Consonant Or Vowel.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Next Consonant Or Vowel\obj\Debug\net10.0\Next Consonant Or Vowel.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Next Consonant Or Vowel\obj\Debug\net10.0\Next Consonant Or Vowel.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Next Consonant Or Vowel\obj\Debug\net10.0\Next Consonant Or Vowel.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Next Consonant Or Vowel\obj\Debug\net10.0\refint\Next Consonant Or Vowel.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Next Consonant Or Vowel\obj\Debug\net10.0\Next Consonant Or Vowel.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Next Consonant Or Vowel\obj\Debug\net10.0\Next Consonant Or Vowel.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\Next Consonant Or Vowel\obj\Debug\net10.0\ref\Next Consonant Or Vowel.dll

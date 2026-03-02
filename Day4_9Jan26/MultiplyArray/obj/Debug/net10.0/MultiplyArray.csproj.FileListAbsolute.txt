@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\MultiplyArray\bin\Debug\net10.0\MultiplyArray.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\MultiplyArray\bin\Debug\net10.0\MultiplyArray.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\MultiplyArray\bin\Debug\net10.0\MultiplyArray.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\MultiplyArray\bin\Debug\net10.0\MultiplyArray.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\MultiplyArray\bin\Debug\net10.0\MultiplyArray.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\MultiplyArray\obj\Debug\net10.0\MultiplyArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\MultiplyArray\obj\Debug\net10.0\MultiplyArray.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\MultiplyArray\obj\Debug\net10.0\MultiplyArray.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\MultiplyArray\obj\Debug\net10.0\MultiplyArray.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\MultiplyArray\obj\Debug\net10.0\MultiplyArray.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\MultiplyArray\obj\Debug\net10.0\refint\MultiplyArray.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\MultiplyArray\obj\Debug\net10.0\MultiplyArray.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\MultiplyArray\obj\Debug\net10.0\MultiplyArray.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\MultiplyArray\obj\Debug\net10.0\ref\MultiplyArray.dll

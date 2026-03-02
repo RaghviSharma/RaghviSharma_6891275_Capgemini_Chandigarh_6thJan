@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "FindSumOfPairs/1.0.0": {
+        "runtime": {
+          "FindSumOfPairs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FindSumOfPairs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\CubeOfPrime\bin\Debug\net10.0\CubeOfPrime.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\CubeOfPrime\bin\Debug\net10.0\CubeOfPrime.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\CubeOfPrime\bin\Debug\net10.0\CubeOfPrime.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\CubeOfPrime\bin\Debug\net10.0\CubeOfPrime.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\CubeOfPrime\bin\Debug\net10.0\CubeOfPrime.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\CubeOfPrime\obj\Debug\net10.0\CubeOfPrime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\CubeOfPrime\obj\Debug\net10.0\CubeOfPrime.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\CubeOfPrime\obj\Debug\net10.0\CubeOfPrime.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\CubeOfPrime\obj\Debug\net10.0\CubeOfPrime.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\CubeOfPrime\obj\Debug\net10.0\CubeOfPrime.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\CubeOfPrime\obj\Debug\net10.0\refint\CubeOfPrime.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\CubeOfPrime\obj\Debug\net10.0\CubeOfPrime.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\CubeOfPrime\obj\Debug\net10.0\CubeOfPrime.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\CubeOfPrime\obj\Debug\net10.0\ref\CubeOfPrime.dll

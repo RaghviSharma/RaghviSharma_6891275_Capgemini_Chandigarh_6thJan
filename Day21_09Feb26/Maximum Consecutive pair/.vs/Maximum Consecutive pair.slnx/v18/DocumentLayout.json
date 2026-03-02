@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day21_09Feb26\\Maximum Consecutive pair\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85138C53-C87D-639C-A0A8-CEE2E56D7204}|Maximum Consecutive pair.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day21_09feb26\\maximum consecutive pair\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85138C53-C87D-639C-A0A8-CEE2E56D7204}|Maximum Consecutive pair.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85138C53-C87D-639C-A0A8-CEE2E56D7204}|Maximum Consecutive pair.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day21_09feb26\\maximum consecutive pair\\userprogramcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85138C53-C87D-639C-A0A8-CEE2E56D7204}|Maximum Consecutive pair.csproj|solutionrelative:userprogramcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserProgramCode.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day21_09Feb26\\Maximum Consecutive pair\\UserProgramCode.cs",
+              "RelativeDocumentMoniker": "UserProgramCode.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day21_09Feb26\\Maximum Consecutive pair\\UserProgramCode.cs",
+              "RelativeToolTip": "UserProgramCode.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T04:57:33.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day21_09Feb26\\Maximum Consecutive pair\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day21_09Feb26\\Maximum Consecutive pair\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T04:57:00.303Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Next Greater Element\bin\Debug\net10.0\Next Greater Element.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Next Greater Element\bin\Debug\net10.0\Next Greater Element.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Next Greater Element\bin\Debug\net10.0\Next Greater Element.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Next Greater Element\bin\Debug\net10.0\Next Greater Element.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Next Greater Element\bin\Debug\net10.0\Next Greater Element.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Next Greater Element\obj\Debug\net10.0\Next Greater Element.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Next Greater Element\obj\Debug\net10.0\Next Greater Element.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Next Greater Element\obj\Debug\net10.0\Next Greater Element.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Next Greater Element\obj\Debug\net10.0\Next Greater Element.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Next Greater Element\obj\Debug\net10.0\Next Greater Element.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Next Greater Element\obj\Debug\net10.0\refint\Next Greater Element.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Next Greater Element\obj\Debug\net10.0\Next Greater Element.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Next Greater Element\obj\Debug\net10.0\Next Greater Element.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Next Greater Element\obj\Debug\net10.0\ref\Next Greater Element.dll

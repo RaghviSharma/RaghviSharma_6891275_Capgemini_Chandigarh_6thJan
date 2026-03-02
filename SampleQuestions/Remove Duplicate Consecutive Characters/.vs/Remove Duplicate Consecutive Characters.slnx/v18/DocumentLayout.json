@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\SampleQuestions\\Remove Duplicate Consecutive Characters\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF33FF2-30D8-4B7B-A6CB-1EB160B1DC99}|Remove Duplicate Consecutive Characters.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\samplequestions\\remove duplicate consecutive characters\\userprogramcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF33FF2-30D8-4B7B-A6CB-1EB160B1DC99}|Remove Duplicate Consecutive Characters.csproj|solutionrelative:userprogramcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBF33FF2-30D8-4B7B-A6CB-1EB160B1DC99}|Remove Duplicate Consecutive Characters.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\samplequestions\\remove duplicate consecutive characters\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBF33FF2-30D8-4B7B-A6CB-1EB160B1DC99}|Remove Duplicate Consecutive Characters.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserProgramCode.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\SampleQuestions\\Remove Duplicate Consecutive Characters\\UserProgramCode.cs",
+              "RelativeDocumentMoniker": "UserProgramCode.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\SampleQuestions\\Remove Duplicate Consecutive Characters\\UserProgramCode.cs",
+              "RelativeToolTip": "UserProgramCode.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T12:14:14.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\SampleQuestions\\Remove Duplicate Consecutive Characters\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\SampleQuestions\\Remove Duplicate Consecutive Characters\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T12:13:34.207Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Form String\bin\Debug\net10.0\Form String.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Form String\bin\Debug\net10.0\Form String.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Form String\bin\Debug\net10.0\Form String.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Form String\bin\Debug\net10.0\Form String.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Form String\bin\Debug\net10.0\Form String.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Form String\obj\Debug\net10.0\Form String.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Form String\obj\Debug\net10.0\Form String.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Form String\obj\Debug\net10.0\Form String.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Form String\obj\Debug\net10.0\Form String.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Form String\obj\Debug\net10.0\Form String.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Form String\obj\Debug\net10.0\refint\Form String.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Form String\obj\Debug\net10.0\Form String.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Form String\obj\Debug\net10.0\Form String.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Form String\obj\Debug\net10.0\ref\Form String.dll

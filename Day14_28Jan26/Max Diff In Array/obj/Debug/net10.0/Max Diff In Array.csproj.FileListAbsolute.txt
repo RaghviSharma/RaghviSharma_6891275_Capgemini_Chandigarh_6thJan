@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day14_28Jan26\Max Diff In Array\bin\Debug\net10.0\Max Diff In Array.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day14_28Jan26\Max Diff In Array\bin\Debug\net10.0\Max Diff In Array.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day14_28Jan26\Max Diff In Array\bin\Debug\net10.0\Max Diff In Array.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day14_28Jan26\Max Diff In Array\bin\Debug\net10.0\Max Diff In Array.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day14_28Jan26\Max Diff In Array\bin\Debug\net10.0\Max Diff In Array.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day14_28Jan26\Max Diff In Array\obj\Debug\net10.0\Max Diff In Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day14_28Jan26\Max Diff In Array\obj\Debug\net10.0\Max Diff In Array.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day14_28Jan26\Max Diff In Array\obj\Debug\net10.0\Max Diff In Array.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day14_28Jan26\Max Diff In Array\obj\Debug\net10.0\Max Diff In Array.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day14_28Jan26\Max Diff In Array\obj\Debug\net10.0\Max Diff In Array.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day14_28Jan26\Max Diff In Array\obj\Debug\net10.0\refint\Max Diff In Array.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day14_28Jan26\Max Diff In Array\obj\Debug\net10.0\Max Diff In Array.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day14_28Jan26\Max Diff In Array\obj\Debug\net10.0\Max Diff In Array.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day14_28Jan26\Max Diff In Array\obj\Debug\net10.0\ref\Max Diff In Array.dll

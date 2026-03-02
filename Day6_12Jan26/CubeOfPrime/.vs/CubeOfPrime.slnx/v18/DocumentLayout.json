@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day6_12Jan26\\CubeOfPrime\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6152CCDB-A7BE-B378-98C5-7481C09D1990}|CubeOfPrime.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day6_12jan26\\cubeofprime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6152CCDB-A7BE-B378-98C5-7481C09D1990}|CubeOfPrime.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day5_10Jan26\\CubeOfPrime\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day5_10Jan26\\CubeOfPrime\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\Day5_10Jan26\\CubeOfPrime\\Program.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day5_10Jan26\\CubeOfPrime\\Program.cs",
+              "RelativeToolTip": "..\\..\\Day5_10Jan26\\CubeOfPrime\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T09:33:59.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day6_12Jan26\\CubeOfPrime\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day6_12Jan26\\CubeOfPrime\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T09:33:29.659Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

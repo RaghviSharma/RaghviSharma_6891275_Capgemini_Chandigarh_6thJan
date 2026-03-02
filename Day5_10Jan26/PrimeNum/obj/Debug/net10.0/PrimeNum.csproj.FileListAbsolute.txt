@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PrimeNum\bin\Debug\net10.0\PrimeNum.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PrimeNum\bin\Debug\net10.0\PrimeNum.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PrimeNum\bin\Debug\net10.0\PrimeNum.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PrimeNum\bin\Debug\net10.0\PrimeNum.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PrimeNum\bin\Debug\net10.0\PrimeNum.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PrimeNum\obj\Debug\net10.0\PrimeNum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PrimeNum\obj\Debug\net10.0\PrimeNum.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PrimeNum\obj\Debug\net10.0\PrimeNum.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PrimeNum\obj\Debug\net10.0\PrimeNum.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PrimeNum\obj\Debug\net10.0\PrimeNum.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PrimeNum\obj\Debug\net10.0\refint\PrimeNum.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PrimeNum\obj\Debug\net10.0\PrimeNum.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PrimeNum\obj\Debug\net10.0\PrimeNum.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PrimeNum\obj\Debug\net10.0\ref\PrimeNum.dll

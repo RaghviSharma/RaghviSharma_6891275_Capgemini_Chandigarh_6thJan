@@ -1,0 +1,14 @@
+﻿namespace FindPatternOfName
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter the string: ");
+            string input1 = Console.ReadLine();
+            Console.WriteLine("Enter the name:");
+            string input2= Console.ReadLine();
+            Console.WriteLine(UserProgramCode.find(input1, input2));
+        }
+    }
+}

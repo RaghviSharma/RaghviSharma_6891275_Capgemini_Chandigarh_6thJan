@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PerfectNumber\obj\Debug\net10.0\PerfectNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PerfectNumber\obj\Debug\net10.0\PerfectNumber.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PerfectNumber\obj\Debug\net10.0\PerfectNumber.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PerfectNumber\obj\Debug\net10.0\PerfectNumber.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PerfectNumber\bin\Debug\net10.0\PerfectNumber.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PerfectNumber\bin\Debug\net10.0\PerfectNumber.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PerfectNumber\bin\Debug\net10.0\PerfectNumber.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PerfectNumber\bin\Debug\net10.0\PerfectNumber.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PerfectNumber\bin\Debug\net10.0\PerfectNumber.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PerfectNumber\obj\Debug\net10.0\PerfectNumber.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PerfectNumber\obj\Debug\net10.0\refint\PerfectNumber.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PerfectNumber\obj\Debug\net10.0\PerfectNumber.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PerfectNumber\obj\Debug\net10.0\PerfectNumber.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\PerfectNumber\obj\Debug\net10.0\ref\PerfectNumber.dll

@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\CountVowel\bin\Debug\net10.0\CountVowel.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\CountVowel\bin\Debug\net10.0\CountVowel.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\CountVowel\bin\Debug\net10.0\CountVowel.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\CountVowel\bin\Debug\net10.0\CountVowel.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\CountVowel\bin\Debug\net10.0\CountVowel.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\CountVowel\obj\Debug\net10.0\CountVowel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\CountVowel\obj\Debug\net10.0\CountVowel.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\CountVowel\obj\Debug\net10.0\CountVowel.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\CountVowel\obj\Debug\net10.0\CountVowel.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\CountVowel\obj\Debug\net10.0\CountVowel.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\CountVowel\obj\Debug\net10.0\refint\CountVowel.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\CountVowel\obj\Debug\net10.0\CountVowel.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\CountVowel\obj\Debug\net10.0\CountVowel.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\CountVowel\obj\Debug\net10.0\ref\CountVowel.dll

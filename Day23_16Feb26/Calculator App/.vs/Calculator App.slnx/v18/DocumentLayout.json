@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day23_16Feb26\\Calculator App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1518414-44F5-4724-BD78-89FF62665790}|..\\TestPerojectNUnit\\TestPerojectNUnit.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day23_16feb26\\testperojectnunit\\calculatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB67C4D-9380-4014-A244-38FAEBAD618E}|Calculator App.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day23_16feb26\\calculator app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB67C4D-9380-4014-A244-38FAEBAD618E}|Calculator App.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB67C4D-9380-4014-A244-38FAEBAD618E}|Calculator App.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day23_16feb26\\calculator app\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB67C4D-9380-4014-A244-38FAEBAD618E}|Calculator App.csproj|solutionrelative:calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1518414-44F5-4724-BD78-89FF62665790}|..\\TestPerojectNUnit\\TestPerojectNUnit.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day23_16feb26\\testperojectnunit\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1518414-44F5-4724-BD78-89FF62665790}|..\\TestPerojectNUnit\\TestProjectNUnit.test.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day23_16feb26\\testperojectnunit\\testprojectnunit.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculatorTest.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day23_16Feb26\\TestPerojectNUnit\\CalculatorTest.cs",
+              "RelativeDocumentMoniker": "..\\TestPerojectNUnit\\CalculatorTest.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day23_16Feb26\\TestPerojectNUnit\\CalculatorTest.cs*",
+              "RelativeToolTip": "..\\TestPerojectNUnit\\CalculatorTest.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwBUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T05:27:01.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestProjectNUnit.Test.csproj",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day23_16Feb26\\TestPerojectNUnit\\TestProjectNUnit.Test.csproj",
+              "RelativeDocumentMoniker": "..\\TestPerojectNUnit\\TestProjectNUnit.Test.csproj",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day23_16Feb26\\TestPerojectNUnit\\TestProjectNUnit.Test.csproj",
+              "RelativeToolTip": "..\\TestPerojectNUnit\\TestProjectNUnit.Test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-16T05:24:21.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day23_16Feb26\\TestPerojectNUnit\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\TestPerojectNUnit\\UnitTest1.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day23_16Feb26\\TestPerojectNUnit\\UnitTest1.cs",
+              "RelativeToolTip": "..\\TestPerojectNUnit\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T05:15:56.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day23_16Feb26\\Calculator App\\Calculator.cs",
+              "RelativeDocumentMoniker": "Calculator.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day23_16Feb26\\Calculator App\\Calculator.cs",
+              "RelativeToolTip": "Calculator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T05:07:32.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day23_16Feb26\\Calculator App\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day23_16Feb26\\Calculator App\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T05:01:31Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

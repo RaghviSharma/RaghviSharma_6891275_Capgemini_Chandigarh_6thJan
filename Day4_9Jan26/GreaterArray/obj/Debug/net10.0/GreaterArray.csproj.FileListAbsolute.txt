@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\GreaterArray\bin\Debug\net10.0\GreaterArray.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\GreaterArray\bin\Debug\net10.0\GreaterArray.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\GreaterArray\bin\Debug\net10.0\GreaterArray.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\GreaterArray\bin\Debug\net10.0\GreaterArray.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\GreaterArray\bin\Debug\net10.0\GreaterArray.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\GreaterArray\obj\Debug\net10.0\GreaterArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\GreaterArray\obj\Debug\net10.0\GreaterArray.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\GreaterArray\obj\Debug\net10.0\GreaterArray.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\GreaterArray\obj\Debug\net10.0\GreaterArray.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\GreaterArray\obj\Debug\net10.0\GreaterArray.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\GreaterArray\obj\Debug\net10.0\refint\GreaterArray.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\GreaterArray\obj\Debug\net10.0\GreaterArray.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\GreaterArray\obj\Debug\net10.0\GreaterArray.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\GreaterArray\obj\Debug\net10.0\ref\GreaterArray.dll

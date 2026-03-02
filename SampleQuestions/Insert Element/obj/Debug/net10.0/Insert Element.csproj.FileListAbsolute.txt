@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Insert Element\bin\Debug\net10.0\Insert Element.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Insert Element\bin\Debug\net10.0\Insert Element.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Insert Element\bin\Debug\net10.0\Insert Element.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Insert Element\bin\Debug\net10.0\Insert Element.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Insert Element\bin\Debug\net10.0\Insert Element.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Insert Element\obj\Debug\net10.0\Insert Element.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Insert Element\obj\Debug\net10.0\Insert Element.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Insert Element\obj\Debug\net10.0\Insert Element.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Insert Element\obj\Debug\net10.0\Insert Element.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Insert Element\obj\Debug\net10.0\Insert Element.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Insert Element\obj\Debug\net10.0\refint\Insert Element.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Insert Element\obj\Debug\net10.0\Insert Element.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Insert Element\obj\Debug\net10.0\Insert Element.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Insert Element\obj\Debug\net10.0\ref\Insert Element.dll

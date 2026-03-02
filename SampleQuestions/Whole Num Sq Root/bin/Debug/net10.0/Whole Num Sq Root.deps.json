@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Whole Num Sq Root/1.0.0": {
+        "runtime": {
+          "Whole Num Sq Root.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Whole Num Sq Root/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

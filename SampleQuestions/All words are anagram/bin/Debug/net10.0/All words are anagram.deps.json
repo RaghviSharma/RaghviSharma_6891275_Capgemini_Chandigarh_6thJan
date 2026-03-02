@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "All words are anagram/1.0.0": {
+        "runtime": {
+          "All words are anagram.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "All words are anagram/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Perfect Shuffle\bin\Debug\net10.0\Perfect Shuffle.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Perfect Shuffle\bin\Debug\net10.0\Perfect Shuffle.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Perfect Shuffle\bin\Debug\net10.0\Perfect Shuffle.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Perfect Shuffle\bin\Debug\net10.0\Perfect Shuffle.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Perfect Shuffle\bin\Debug\net10.0\Perfect Shuffle.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Perfect Shuffle\obj\Debug\net10.0\Perfect Shuffle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Perfect Shuffle\obj\Debug\net10.0\Perfect Shuffle.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Perfect Shuffle\obj\Debug\net10.0\Perfect Shuffle.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Perfect Shuffle\obj\Debug\net10.0\Perfect Shuffle.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Perfect Shuffle\obj\Debug\net10.0\Perfect Shuffle.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Perfect Shuffle\obj\Debug\net10.0\refint\Perfect Shuffle.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Perfect Shuffle\obj\Debug\net10.0\Perfect Shuffle.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Perfect Shuffle\obj\Debug\net10.0\Perfect Shuffle.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Perfect Shuffle\obj\Debug\net10.0\ref\Perfect Shuffle.dll

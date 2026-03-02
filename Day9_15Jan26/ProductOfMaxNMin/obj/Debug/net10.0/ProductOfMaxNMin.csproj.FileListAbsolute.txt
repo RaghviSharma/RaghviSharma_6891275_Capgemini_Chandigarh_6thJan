@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\ProductOfMaxNMin\bin\Debug\net10.0\ProductOfMaxNMin.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\ProductOfMaxNMin\bin\Debug\net10.0\ProductOfMaxNMin.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\ProductOfMaxNMin\bin\Debug\net10.0\ProductOfMaxNMin.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\ProductOfMaxNMin\bin\Debug\net10.0\ProductOfMaxNMin.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\ProductOfMaxNMin\bin\Debug\net10.0\ProductOfMaxNMin.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\ProductOfMaxNMin\obj\Debug\net10.0\ProductOfMaxNMin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\ProductOfMaxNMin\obj\Debug\net10.0\ProductOfMaxNMin.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\ProductOfMaxNMin\obj\Debug\net10.0\ProductOfMaxNMin.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\ProductOfMaxNMin\obj\Debug\net10.0\ProductOfMaxNMin.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\ProductOfMaxNMin\obj\Debug\net10.0\ProductOfMaxNMin.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\ProductOfMaxNMin\obj\Debug\net10.0\refint\ProductOfMaxNMin.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\ProductOfMaxNMin\obj\Debug\net10.0\ProductOfMaxNMin.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\ProductOfMaxNMin\obj\Debug\net10.0\ProductOfMaxNMin.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\ProductOfMaxNMin\obj\Debug\net10.0\ref\ProductOfMaxNMin.dll

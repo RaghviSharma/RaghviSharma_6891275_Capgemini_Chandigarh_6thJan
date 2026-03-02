@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\GrossSalary\bin\Debug\net10.0\GrossSalary.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\GrossSalary\bin\Debug\net10.0\GrossSalary.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\GrossSalary\bin\Debug\net10.0\GrossSalary.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\GrossSalary\bin\Debug\net10.0\GrossSalary.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\GrossSalary\bin\Debug\net10.0\GrossSalary.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\GrossSalary\obj\Debug\net10.0\GrossSalary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\GrossSalary\obj\Debug\net10.0\GrossSalary.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\GrossSalary\obj\Debug\net10.0\GrossSalary.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\GrossSalary\obj\Debug\net10.0\GrossSalary.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\GrossSalary\obj\Debug\net10.0\GrossSalary.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\GrossSalary\obj\Debug\net10.0\refint\GrossSalary.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\GrossSalary\obj\Debug\net10.0\GrossSalary.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\GrossSalary\obj\Debug\net10.0\GrossSalary.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\GrossSalary\obj\Debug\net10.0\ref\GrossSalary.dll

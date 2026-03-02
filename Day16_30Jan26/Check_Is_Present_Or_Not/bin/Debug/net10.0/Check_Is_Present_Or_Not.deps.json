@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Check_Is_Present_Or_Not/1.0.0": {
+        "runtime": {
+          "Check_Is_Present_Or_Not.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Check_Is_Present_Or_Not/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

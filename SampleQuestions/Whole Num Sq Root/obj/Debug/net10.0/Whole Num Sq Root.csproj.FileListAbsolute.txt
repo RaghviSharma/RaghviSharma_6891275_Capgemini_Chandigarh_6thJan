@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Whole Num Sq Root\bin\Debug\net10.0\Whole Num Sq Root.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Whole Num Sq Root\bin\Debug\net10.0\Whole Num Sq Root.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Whole Num Sq Root\bin\Debug\net10.0\Whole Num Sq Root.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Whole Num Sq Root\bin\Debug\net10.0\Whole Num Sq Root.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Whole Num Sq Root\bin\Debug\net10.0\Whole Num Sq Root.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Whole Num Sq Root\obj\Debug\net10.0\Whole Num Sq Root.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Whole Num Sq Root\obj\Debug\net10.0\Whole Num Sq Root.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Whole Num Sq Root\obj\Debug\net10.0\Whole Num Sq Root.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Whole Num Sq Root\obj\Debug\net10.0\Whole Num Sq Root.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Whole Num Sq Root\obj\Debug\net10.0\Whole Num Sq Root.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Whole Num Sq Root\obj\Debug\net10.0\refint\Whole Num Sq Root.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Whole Num Sq Root\obj\Debug\net10.0\Whole Num Sq Root.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Whole Num Sq Root\obj\Debug\net10.0\Whole Num Sq Root.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Whole Num Sq Root\obj\Debug\net10.0\ref\Whole Num Sq Root.dll

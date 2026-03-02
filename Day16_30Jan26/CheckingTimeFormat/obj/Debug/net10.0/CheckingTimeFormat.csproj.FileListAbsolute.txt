@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\CheckingTimeFormat\bin\Debug\net10.0\CheckingTimeFormat.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\CheckingTimeFormat\bin\Debug\net10.0\CheckingTimeFormat.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\CheckingTimeFormat\bin\Debug\net10.0\CheckingTimeFormat.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\CheckingTimeFormat\bin\Debug\net10.0\CheckingTimeFormat.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\CheckingTimeFormat\bin\Debug\net10.0\CheckingTimeFormat.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\CheckingTimeFormat\obj\Debug\net10.0\CheckingTimeFormat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\CheckingTimeFormat\obj\Debug\net10.0\CheckingTimeFormat.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\CheckingTimeFormat\obj\Debug\net10.0\CheckingTimeFormat.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\CheckingTimeFormat\obj\Debug\net10.0\CheckingTimeFormat.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\CheckingTimeFormat\obj\Debug\net10.0\CheckingTimeFormat.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\CheckingTimeFormat\obj\Debug\net10.0\refint\CheckingTimeFormat.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\CheckingTimeFormat\obj\Debug\net10.0\CheckingTimeFormat.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\CheckingTimeFormat\obj\Debug\net10.0\CheckingTimeFormat.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\CheckingTimeFormat\obj\Debug\net10.0\ref\CheckingTimeFormat.dll

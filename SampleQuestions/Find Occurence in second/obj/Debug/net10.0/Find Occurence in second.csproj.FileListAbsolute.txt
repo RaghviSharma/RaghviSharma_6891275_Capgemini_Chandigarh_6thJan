@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Find Occurence in second\bin\Debug\net10.0\Find Occurence in second.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Find Occurence in second\bin\Debug\net10.0\Find Occurence in second.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Find Occurence in second\bin\Debug\net10.0\Find Occurence in second.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Find Occurence in second\bin\Debug\net10.0\Find Occurence in second.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Find Occurence in second\bin\Debug\net10.0\Find Occurence in second.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Find Occurence in second\obj\Debug\net10.0\Find Occurence in second.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Find Occurence in second\obj\Debug\net10.0\Find Occurence in second.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Find Occurence in second\obj\Debug\net10.0\Find Occurence in second.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Find Occurence in second\obj\Debug\net10.0\Find Occurence in second.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Find Occurence in second\obj\Debug\net10.0\Find Occurence in second.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Find Occurence in second\obj\Debug\net10.0\refint\Find Occurence in second.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Find Occurence in second\obj\Debug\net10.0\Find Occurence in second.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Find Occurence in second\obj\Debug\net10.0\Find Occurence in second.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Find Occurence in second\obj\Debug\net10.0\ref\Find Occurence in second.dll

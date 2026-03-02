@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\CaseStudy\HotelProject\bin\Debug\net10.0\HotelProject.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\CaseStudy\HotelProject\bin\Debug\net10.0\HotelProject.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\CaseStudy\HotelProject\bin\Debug\net10.0\HotelProject.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\CaseStudy\HotelProject\bin\Debug\net10.0\HotelProject.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\CaseStudy\HotelProject\bin\Debug\net10.0\HotelProject.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\CaseStudy\HotelProject\obj\Debug\net10.0\HotelProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\CaseStudy\HotelProject\obj\Debug\net10.0\HotelProject.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\CaseStudy\HotelProject\obj\Debug\net10.0\HotelProject.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\CaseStudy\HotelProject\obj\Debug\net10.0\HotelProject.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\CaseStudy\HotelProject\obj\Debug\net10.0\HotelProject.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\CaseStudy\HotelProject\obj\Debug\net10.0\refint\HotelProject.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\CaseStudy\HotelProject\obj\Debug\net10.0\HotelProject.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\CaseStudy\HotelProject\obj\Debug\net10.0\HotelProject.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\CaseStudy\HotelProject\obj\Debug\net10.0\ref\HotelProject.dll

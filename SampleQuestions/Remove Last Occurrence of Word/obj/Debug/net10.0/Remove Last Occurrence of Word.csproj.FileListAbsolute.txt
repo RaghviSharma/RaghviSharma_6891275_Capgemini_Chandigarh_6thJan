@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Remove Last Occurrence of Word\bin\Debug\net10.0\Remove Last Occurrence of Word.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Remove Last Occurrence of Word\bin\Debug\net10.0\Remove Last Occurrence of Word.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Remove Last Occurrence of Word\bin\Debug\net10.0\Remove Last Occurrence of Word.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Remove Last Occurrence of Word\bin\Debug\net10.0\Remove Last Occurrence of Word.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Remove Last Occurrence of Word\bin\Debug\net10.0\Remove Last Occurrence of Word.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Remove Last Occurrence of Word\obj\Debug\net10.0\Remove Last Occurrence of Word.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Remove Last Occurrence of Word\obj\Debug\net10.0\Remove Last Occurrence of Word.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Remove Last Occurrence of Word\obj\Debug\net10.0\Remove Last Occurrence of Word.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Remove Last Occurrence of Word\obj\Debug\net10.0\Remove Last Occurrence of Word.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Remove Last Occurrence of Word\obj\Debug\net10.0\Remove Last Occurrence of Word.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Remove Last Occurrence of Word\obj\Debug\net10.0\refint\Remove Last Occurrence of Word.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Remove Last Occurrence of Word\obj\Debug\net10.0\Remove Last Occurrence of Word.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Remove Last Occurrence of Word\obj\Debug\net10.0\Remove Last Occurrence of Word.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Remove Last Occurrence of Word\obj\Debug\net10.0\ref\Remove Last Occurrence of Word.dll

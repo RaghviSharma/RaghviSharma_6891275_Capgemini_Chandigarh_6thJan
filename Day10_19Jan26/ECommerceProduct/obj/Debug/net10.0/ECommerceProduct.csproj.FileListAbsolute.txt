@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day10_19Jan26\ECommerceProduct\bin\Debug\net10.0\ECommerceProduct.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day10_19Jan26\ECommerceProduct\bin\Debug\net10.0\ECommerceProduct.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day10_19Jan26\ECommerceProduct\bin\Debug\net10.0\ECommerceProduct.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day10_19Jan26\ECommerceProduct\bin\Debug\net10.0\ECommerceProduct.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day10_19Jan26\ECommerceProduct\bin\Debug\net10.0\ECommerceProduct.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day10_19Jan26\ECommerceProduct\obj\Debug\net10.0\ECommerceProduct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day10_19Jan26\ECommerceProduct\obj\Debug\net10.0\ECommerceProduct.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day10_19Jan26\ECommerceProduct\obj\Debug\net10.0\ECommerceProduct.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day10_19Jan26\ECommerceProduct\obj\Debug\net10.0\ECommerceProduct.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day10_19Jan26\ECommerceProduct\obj\Debug\net10.0\ECommerceProduct.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day10_19Jan26\ECommerceProduct\obj\Debug\net10.0\refint\ECommerceProduct.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day10_19Jan26\ECommerceProduct\obj\Debug\net10.0\ECommerceProduct.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day10_19Jan26\ECommerceProduct\obj\Debug\net10.0\ECommerceProduct.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day10_19Jan26\ECommerceProduct\obj\Debug\net10.0\ref\ECommerceProduct.dll

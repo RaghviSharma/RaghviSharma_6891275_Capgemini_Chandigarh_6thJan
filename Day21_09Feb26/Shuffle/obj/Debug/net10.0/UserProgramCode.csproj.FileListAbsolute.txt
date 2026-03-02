@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Shuffle\bin\Debug\net10.0\UserProgramCode.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Shuffle\bin\Debug\net10.0\UserProgramCode.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Shuffle\bin\Debug\net10.0\UserProgramCode.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Shuffle\bin\Debug\net10.0\UserProgramCode.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Shuffle\bin\Debug\net10.0\UserProgramCode.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Shuffle\obj\Debug\net10.0\UserProgramCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Shuffle\obj\Debug\net10.0\UserProgramCode.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Shuffle\obj\Debug\net10.0\UserProgramCode.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Shuffle\obj\Debug\net10.0\UserProgramCode.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Shuffle\obj\Debug\net10.0\UserProgramCode.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Shuffle\obj\Debug\net10.0\refint\UserProgramCode.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Shuffle\obj\Debug\net10.0\UserProgramCode.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Shuffle\obj\Debug\net10.0\UserProgramCode.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Shuffle\obj\Debug\net10.0\ref\UserProgramCode.dll

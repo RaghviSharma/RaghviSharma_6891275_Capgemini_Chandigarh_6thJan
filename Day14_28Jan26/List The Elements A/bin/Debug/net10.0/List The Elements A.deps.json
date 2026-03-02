@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "List The Elements A/1.0.0": {
+        "runtime": {
+          "List The Elements A.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "List The Elements A/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

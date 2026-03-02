@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\RotateArrayByK\bin\Debug\net10.0\RotateArrayByK.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\RotateArrayByK\bin\Debug\net10.0\RotateArrayByK.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\RotateArrayByK\bin\Debug\net10.0\RotateArrayByK.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\RotateArrayByK\bin\Debug\net10.0\RotateArrayByK.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\RotateArrayByK\bin\Debug\net10.0\RotateArrayByK.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\RotateArrayByK\obj\Debug\net10.0\RotateArrayByK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\RotateArrayByK\obj\Debug\net10.0\RotateArrayByK.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\RotateArrayByK\obj\Debug\net10.0\RotateArrayByK.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\RotateArrayByK\obj\Debug\net10.0\RotateArrayByK.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\RotateArrayByK\obj\Debug\net10.0\RotateArrayByK.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\RotateArrayByK\obj\Debug\net10.0\refint\RotateArrayByK.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\RotateArrayByK\obj\Debug\net10.0\RotateArrayByK.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\RotateArrayByK\obj\Debug\net10.0\RotateArrayByK.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\RotateArrayByK\obj\Debug\net10.0\ref\RotateArrayByK.dll

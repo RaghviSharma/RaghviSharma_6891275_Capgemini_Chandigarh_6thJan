@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\RemoveDuplicates\bin\Debug\net10.0\RemoveDuplicates.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\RemoveDuplicates\bin\Debug\net10.0\RemoveDuplicates.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\RemoveDuplicates\bin\Debug\net10.0\RemoveDuplicates.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\RemoveDuplicates\bin\Debug\net10.0\RemoveDuplicates.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\RemoveDuplicates\bin\Debug\net10.0\RemoveDuplicates.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\RemoveDuplicates\obj\Debug\net10.0\RemoveDuplicates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\RemoveDuplicates\obj\Debug\net10.0\RemoveDuplicates.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\RemoveDuplicates\obj\Debug\net10.0\RemoveDuplicates.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\RemoveDuplicates\obj\Debug\net10.0\RemoveDuplicates.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\RemoveDuplicates\obj\Debug\net10.0\RemoveDuplicates.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\RemoveDuplicates\obj\Debug\net10.0\refint\RemoveDuplicates.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\RemoveDuplicates\obj\Debug\net10.0\RemoveDuplicates.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\RemoveDuplicates\obj\Debug\net10.0\RemoveDuplicates.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\RemoveDuplicates\obj\Debug\net10.0\ref\RemoveDuplicates.dll

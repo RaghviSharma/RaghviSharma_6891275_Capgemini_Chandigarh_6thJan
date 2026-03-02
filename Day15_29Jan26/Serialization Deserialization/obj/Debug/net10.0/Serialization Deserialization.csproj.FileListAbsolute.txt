@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day15_29Jan26\Serialization Deserialization\bin\Debug\net10.0\Serialization Deserialization.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day15_29Jan26\Serialization Deserialization\bin\Debug\net10.0\Serialization Deserialization.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day15_29Jan26\Serialization Deserialization\bin\Debug\net10.0\Serialization Deserialization.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day15_29Jan26\Serialization Deserialization\bin\Debug\net10.0\Serialization Deserialization.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day15_29Jan26\Serialization Deserialization\bin\Debug\net10.0\Serialization Deserialization.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day15_29Jan26\Serialization Deserialization\obj\Debug\net10.0\Serialization Deserialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day15_29Jan26\Serialization Deserialization\obj\Debug\net10.0\Serialization Deserialization.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day15_29Jan26\Serialization Deserialization\obj\Debug\net10.0\Serialization Deserialization.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day15_29Jan26\Serialization Deserialization\obj\Debug\net10.0\Serialization Deserialization.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day15_29Jan26\Serialization Deserialization\obj\Debug\net10.0\Serialization Deserialization.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day15_29Jan26\Serialization Deserialization\obj\Debug\net10.0\refint\Serialization Deserialization.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day15_29Jan26\Serialization Deserialization\obj\Debug\net10.0\Serialization Deserialization.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day15_29Jan26\Serialization Deserialization\obj\Debug\net10.0\Serialization Deserialization.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day15_29Jan26\Serialization Deserialization\obj\Debug\net10.0\ref\Serialization Deserialization.dll

@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Maximum Deletion\bin\Debug\net10.0\Maximum Deletion.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Maximum Deletion\bin\Debug\net10.0\Maximum Deletion.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Maximum Deletion\bin\Debug\net10.0\Maximum Deletion.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Maximum Deletion\bin\Debug\net10.0\Maximum Deletion.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Maximum Deletion\bin\Debug\net10.0\Maximum Deletion.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Maximum Deletion\obj\Debug\net10.0\Maximum Deletion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Maximum Deletion\obj\Debug\net10.0\Maximum Deletion.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Maximum Deletion\obj\Debug\net10.0\Maximum Deletion.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Maximum Deletion\obj\Debug\net10.0\Maximum Deletion.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Maximum Deletion\obj\Debug\net10.0\Maximum Deletion.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Maximum Deletion\obj\Debug\net10.0\refint\Maximum Deletion.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Maximum Deletion\obj\Debug\net10.0\Maximum Deletion.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Maximum Deletion\obj\Debug\net10.0\Maximum Deletion.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Maximum Deletion\obj\Debug\net10.0\ref\Maximum Deletion.dll

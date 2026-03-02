@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\BuyAndSellStocks\bin\Debug\net10.0\BuyAndSellStocks.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\BuyAndSellStocks\bin\Debug\net10.0\BuyAndSellStocks.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\BuyAndSellStocks\bin\Debug\net10.0\BuyAndSellStocks.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\BuyAndSellStocks\bin\Debug\net10.0\BuyAndSellStocks.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\BuyAndSellStocks\bin\Debug\net10.0\BuyAndSellStocks.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\BuyAndSellStocks\obj\Debug\net10.0\BuyAndSellStocks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\BuyAndSellStocks\obj\Debug\net10.0\BuyAndSellStocks.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\BuyAndSellStocks\obj\Debug\net10.0\BuyAndSellStocks.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\BuyAndSellStocks\obj\Debug\net10.0\BuyAndSellStocks.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\BuyAndSellStocks\obj\Debug\net10.0\BuyAndSellStocks.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\BuyAndSellStocks\obj\Debug\net10.0\refint\BuyAndSellStocks.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\BuyAndSellStocks\obj\Debug\net10.0\BuyAndSellStocks.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\BuyAndSellStocks\obj\Debug\net10.0\BuyAndSellStocks.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day17_02Feb26\BuyAndSellStocks\obj\Debug\net10.0\ref\BuyAndSellStocks.dll

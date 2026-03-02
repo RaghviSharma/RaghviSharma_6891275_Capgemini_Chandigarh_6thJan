@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert A Character\bin\Debug\net10.0\Insert A Character.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert A Character\bin\Debug\net10.0\Insert A Character.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert A Character\bin\Debug\net10.0\Insert A Character.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert A Character\bin\Debug\net10.0\Insert A Character.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert A Character\bin\Debug\net10.0\Insert A Character.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert A Character\obj\Debug\net10.0\Insert A Character.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert A Character\obj\Debug\net10.0\Insert A Character.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert A Character\obj\Debug\net10.0\Insert A Character.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert A Character\obj\Debug\net10.0\Insert A Character.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert A Character\obj\Debug\net10.0\Insert A Character.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert A Character\obj\Debug\net10.0\refint\Insert A Character.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert A Character\obj\Debug\net10.0\Insert A Character.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert A Character\obj\Debug\net10.0\Insert A Character.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert A Character\obj\Debug\net10.0\ref\Insert A Character.dll

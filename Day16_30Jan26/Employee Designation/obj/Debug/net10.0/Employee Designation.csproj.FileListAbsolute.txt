@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Employee Designation\bin\Debug\net10.0\Employee Designation.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Employee Designation\bin\Debug\net10.0\Employee Designation.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Employee Designation\bin\Debug\net10.0\Employee Designation.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Employee Designation\bin\Debug\net10.0\Employee Designation.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Employee Designation\bin\Debug\net10.0\Employee Designation.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Employee Designation\obj\Debug\net10.0\Employee Designation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Employee Designation\obj\Debug\net10.0\Employee Designation.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Employee Designation\obj\Debug\net10.0\Employee Designation.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Employee Designation\obj\Debug\net10.0\Employee Designation.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Employee Designation\obj\Debug\net10.0\Employee Designation.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Employee Designation\obj\Debug\net10.0\refint\Employee Designation.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Employee Designation\obj\Debug\net10.0\Employee Designation.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Employee Designation\obj\Debug\net10.0\Employee Designation.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Employee Designation\obj\Debug\net10.0\ref\Employee Designation.dll

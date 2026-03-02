@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\SearchInArray\bin\Debug\net10.0\SearchInArray.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\SearchInArray\bin\Debug\net10.0\SearchInArray.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\SearchInArray\bin\Debug\net10.0\SearchInArray.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\SearchInArray\bin\Debug\net10.0\SearchInArray.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\SearchInArray\bin\Debug\net10.0\SearchInArray.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\SearchInArray\obj\Debug\net10.0\SearchInArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\SearchInArray\obj\Debug\net10.0\SearchInArray.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\SearchInArray\obj\Debug\net10.0\SearchInArray.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\SearchInArray\obj\Debug\net10.0\SearchInArray.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\SearchInArray\obj\Debug\net10.0\SearchInArray.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\SearchInArray\obj\Debug\net10.0\refint\SearchInArray.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\SearchInArray\obj\Debug\net10.0\SearchInArray.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\SearchInArray\obj\Debug\net10.0\SearchInArray.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\SearchInArray\obj\Debug\net10.0\ref\SearchInArray.dll

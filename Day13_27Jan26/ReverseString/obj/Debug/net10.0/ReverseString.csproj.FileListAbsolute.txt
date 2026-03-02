@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\ReverseString\bin\Debug\net10.0\ReverseString.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\ReverseString\bin\Debug\net10.0\ReverseString.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\ReverseString\bin\Debug\net10.0\ReverseString.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\ReverseString\bin\Debug\net10.0\ReverseString.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\ReverseString\bin\Debug\net10.0\ReverseString.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\ReverseString\obj\Debug\net10.0\ReverseString.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\ReverseString\obj\Debug\net10.0\ReverseString.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\ReverseString\obj\Debug\net10.0\ReverseString.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\ReverseString\obj\Debug\net10.0\ReverseString.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\ReverseString\obj\Debug\net10.0\ReverseString.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\ReverseString\obj\Debug\net10.0\refint\ReverseString.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\ReverseString\obj\Debug\net10.0\ReverseString.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\ReverseString\obj\Debug\net10.0\ReverseString.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day13_27Jan26\ReverseString\obj\Debug\net10.0\ref\ReverseString.dll

@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day5_10Jan26\\PrimeNum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0ABCEDF0-E378-078B-1ADA-C44CF20F90BF}|PrimeNum.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day5_10jan26\\primenum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ABCEDF0-E378-078B-1ADA-C44CF20F90BF}|PrimeNum.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\GreeterLib\\Greeter\\Greeter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\GreeterLib\\IGreeter\\Igreeter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\Program.cs",
+              "ToolTip": "C:\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T07:06:49.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Greeter.cs",
+              "DocumentMoniker": "C:\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\GreeterLib\\Greeter\\Greeter.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\GreeterLib\\Greeter\\Greeter.cs",
+              "ToolTip": "C:\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\GreeterLib\\Greeter\\Greeter.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\GreeterLib\\Greeter\\Greeter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T07:06:00.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Igreeter.cs",
+              "DocumentMoniker": "C:\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\GreeterLib\\IGreeter\\Igreeter.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\GreeterLib\\IGreeter\\Igreeter.cs",
+              "ToolTip": "C:\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\GreeterLib\\IGreeter\\Igreeter.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\raghv\\Dotnetworkspace\\HelloWorld\\GreeterLib\\IGreeter\\Igreeter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T07:05:23.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day5_10Jan26\\PrimeNum\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day5_10Jan26\\PrimeNum\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T06:20:56.771Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

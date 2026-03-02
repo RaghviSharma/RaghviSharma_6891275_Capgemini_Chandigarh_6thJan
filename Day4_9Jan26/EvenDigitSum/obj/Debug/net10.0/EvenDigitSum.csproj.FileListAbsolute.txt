@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\EvenDigitSum\bin\Debug\net10.0\EvenDigitSum.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\EvenDigitSum\bin\Debug\net10.0\EvenDigitSum.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\EvenDigitSum\bin\Debug\net10.0\EvenDigitSum.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\EvenDigitSum\bin\Debug\net10.0\EvenDigitSum.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\EvenDigitSum\bin\Debug\net10.0\EvenDigitSum.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\EvenDigitSum\obj\Debug\net10.0\EvenDigitSum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\EvenDigitSum\obj\Debug\net10.0\EvenDigitSum.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\EvenDigitSum\obj\Debug\net10.0\EvenDigitSum.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\EvenDigitSum\obj\Debug\net10.0\EvenDigitSum.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\EvenDigitSum\obj\Debug\net10.0\EvenDigitSum.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\EvenDigitSum\obj\Debug\net10.0\refint\EvenDigitSum.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\EvenDigitSum\obj\Debug\net10.0\EvenDigitSum.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\EvenDigitSum\obj\Debug\net10.0\EvenDigitSum.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\EvenDigitSum\obj\Debug\net10.0\ref\EvenDigitSum.dll

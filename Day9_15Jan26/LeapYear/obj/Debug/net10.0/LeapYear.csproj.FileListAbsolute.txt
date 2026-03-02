@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\LeapYear\bin\Debug\net10.0\LeapYear.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\LeapYear\bin\Debug\net10.0\LeapYear.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\LeapYear\bin\Debug\net10.0\LeapYear.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\LeapYear\bin\Debug\net10.0\LeapYear.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\LeapYear\bin\Debug\net10.0\LeapYear.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\LeapYear\obj\Debug\net10.0\LeapYear.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\LeapYear\obj\Debug\net10.0\LeapYear.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\LeapYear\obj\Debug\net10.0\LeapYear.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\LeapYear\obj\Debug\net10.0\LeapYear.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\LeapYear\obj\Debug\net10.0\LeapYear.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\LeapYear\obj\Debug\net10.0\refint\LeapYear.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\LeapYear\obj\Debug\net10.0\LeapYear.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\LeapYear\obj\Debug\net10.0\LeapYear.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day9_15Jan26\LeapYear\obj\Debug\net10.0\ref\LeapYear.dll

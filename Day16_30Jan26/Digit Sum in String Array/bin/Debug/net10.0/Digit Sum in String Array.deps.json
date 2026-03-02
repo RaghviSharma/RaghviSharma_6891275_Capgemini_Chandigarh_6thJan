@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Digit Sum in String Array/1.0.0": {
+        "runtime": {
+          "Digit Sum in String Array.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Digit Sum in String Array/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

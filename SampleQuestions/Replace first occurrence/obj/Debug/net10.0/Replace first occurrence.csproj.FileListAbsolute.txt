@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Replace first occurrence\bin\Debug\net10.0\Replace first occurrence.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Replace first occurrence\bin\Debug\net10.0\Replace first occurrence.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Replace first occurrence\bin\Debug\net10.0\Replace first occurrence.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Replace first occurrence\bin\Debug\net10.0\Replace first occurrence.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Replace first occurrence\bin\Debug\net10.0\Replace first occurrence.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Replace first occurrence\obj\Debug\net10.0\Replace first occurrence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Replace first occurrence\obj\Debug\net10.0\Replace first occurrence.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Replace first occurrence\obj\Debug\net10.0\Replace first occurrence.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Replace first occurrence\obj\Debug\net10.0\Replace first occurrence.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Replace first occurrence\obj\Debug\net10.0\Replace first occurrence.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Replace first occurrence\obj\Debug\net10.0\refint\Replace first occurrence.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Replace first occurrence\obj\Debug\net10.0\Replace first occurrence.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Replace first occurrence\obj\Debug\net10.0\Replace first occurrence.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Replace first occurrence\obj\Debug\net10.0\ref\Replace first occurrence.dll

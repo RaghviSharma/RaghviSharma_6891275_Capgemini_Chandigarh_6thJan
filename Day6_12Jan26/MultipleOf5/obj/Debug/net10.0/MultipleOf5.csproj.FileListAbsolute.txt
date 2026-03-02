@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\MultipleOf5\bin\Debug\net10.0\MultipleOf5.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\MultipleOf5\bin\Debug\net10.0\MultipleOf5.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\MultipleOf5\bin\Debug\net10.0\MultipleOf5.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\MultipleOf5\bin\Debug\net10.0\MultipleOf5.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\MultipleOf5\bin\Debug\net10.0\MultipleOf5.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\MultipleOf5\obj\Debug\net10.0\MultipleOf5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\MultipleOf5\obj\Debug\net10.0\MultipleOf5.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\MultipleOf5\obj\Debug\net10.0\MultipleOf5.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\MultipleOf5\obj\Debug\net10.0\MultipleOf5.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\MultipleOf5\obj\Debug\net10.0\MultipleOf5.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\MultipleOf5\obj\Debug\net10.0\refint\MultipleOf5.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\MultipleOf5\obj\Debug\net10.0\MultipleOf5.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\MultipleOf5\obj\Debug\net10.0\MultipleOf5.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day6_12Jan26\MultipleOf5\obj\Debug\net10.0\ref\MultipleOf5.dll

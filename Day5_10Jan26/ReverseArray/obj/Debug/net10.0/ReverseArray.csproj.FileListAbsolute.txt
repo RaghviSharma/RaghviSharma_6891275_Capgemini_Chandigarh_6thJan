@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\ReverseArray\bin\Debug\net10.0\ReverseArray.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\ReverseArray\bin\Debug\net10.0\ReverseArray.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\ReverseArray\bin\Debug\net10.0\ReverseArray.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\ReverseArray\bin\Debug\net10.0\ReverseArray.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\ReverseArray\bin\Debug\net10.0\ReverseArray.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\ReverseArray\obj\Debug\net10.0\ReverseArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\ReverseArray\obj\Debug\net10.0\ReverseArray.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\ReverseArray\obj\Debug\net10.0\ReverseArray.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\ReverseArray\obj\Debug\net10.0\ReverseArray.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\ReverseArray\obj\Debug\net10.0\ReverseArray.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\ReverseArray\obj\Debug\net10.0\refint\ReverseArray.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\ReverseArray\obj\Debug\net10.0\ReverseArray.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\ReverseArray\obj\Debug\net10.0\ReverseArray.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day5_10Jan26\ReverseArray\obj\Debug\net10.0\ref\ReverseArray.dll

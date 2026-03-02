@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\FindAvg\bin\Debug\net10.0\FindAvg.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\FindAvg\bin\Debug\net10.0\FindAvg.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\FindAvg\bin\Debug\net10.0\FindAvg.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\FindAvg\bin\Debug\net10.0\FindAvg.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\FindAvg\bin\Debug\net10.0\FindAvg.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\FindAvg\obj\Debug\net10.0\FindAvg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\FindAvg\obj\Debug\net10.0\FindAvg.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\FindAvg\obj\Debug\net10.0\FindAvg.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\FindAvg\obj\Debug\net10.0\FindAvg.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\FindAvg\obj\Debug\net10.0\FindAvg.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\FindAvg\obj\Debug\net10.0\refint\FindAvg.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\FindAvg\obj\Debug\net10.0\FindAvg.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\FindAvg\obj\Debug\net10.0\FindAvg.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day4_9Jan26\FindAvg\obj\Debug\net10.0\ref\FindAvg.dll

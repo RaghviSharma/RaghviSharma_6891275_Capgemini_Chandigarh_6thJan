@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\BankManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BA04092-9836-934A-C4A8-7D09D2EC5B90}|BankManagementSystem.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day10_19jan26\\bankmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BA04092-9836-934A-C4A8-7D09D2EC5B90}|BankManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BA04092-9836-934A-C4A8-7D09D2EC5B90}|BankManagementSystem.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day10_19jan26\\bankmanagementsystem\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BA04092-9836-934A-C4A8-7D09D2EC5B90}|BankManagementSystem.csproj|solutionrelative:bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BA04092-9836-934A-C4A8-7D09D2EC5B90}|BankManagementSystem.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day10_19jan26\\bankmanagementsystem\\savingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BA04092-9836-934A-C4A8-7D09D2EC5B90}|BankManagementSystem.csproj|solutionrelative:savingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BA04092-9836-934A-C4A8-7D09D2EC5B90}|BankManagementSystem.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day10_19jan26\\bankmanagementsystem\\checkingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BA04092-9836-934A-C4A8-7D09D2EC5B90}|BankManagementSystem.csproj|solutionrelative:checkingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CheckingAccount.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\BankManagementSystem\\CheckingAccount.cs",
+              "RelativeDocumentMoniker": "CheckingAccount.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\BankManagementSystem\\CheckingAccount.cs",
+              "RelativeToolTip": "CheckingAccount.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:33:12.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SavingAccount.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\BankManagementSystem\\SavingAccount.cs",
+              "RelativeDocumentMoniker": "SavingAccount.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\BankManagementSystem\\SavingAccount.cs",
+              "RelativeToolTip": "SavingAccount.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:32:58.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\BankManagementSystem\\BankAccount.cs",
+              "RelativeDocumentMoniker": "BankAccount.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\BankManagementSystem\\BankAccount.cs",
+              "RelativeToolTip": "BankAccount.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:32:23.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\BankManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day10_19Jan26\\BankManagementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAjwCwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:30:52.397Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

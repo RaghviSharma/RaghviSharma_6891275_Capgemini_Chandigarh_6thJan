@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Replace String\bin\Debug\net10.0\Replace String.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Replace String\bin\Debug\net10.0\Replace String.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Replace String\bin\Debug\net10.0\Replace String.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Replace String\bin\Debug\net10.0\Replace String.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Replace String\bin\Debug\net10.0\Replace String.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Replace String\obj\Debug\net10.0\Replace String.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Replace String\obj\Debug\net10.0\Replace String.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Replace String\obj\Debug\net10.0\Replace String.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Replace String\obj\Debug\net10.0\Replace String.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Replace String\obj\Debug\net10.0\Replace String.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Replace String\obj\Debug\net10.0\refint\Replace String.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Replace String\obj\Debug\net10.0\Replace String.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Replace String\obj\Debug\net10.0\Replace String.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day16_30Jan26\Replace String\obj\Debug\net10.0\ref\Replace String.dll

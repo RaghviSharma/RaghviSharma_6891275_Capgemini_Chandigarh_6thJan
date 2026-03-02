@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\LuckyNumber\bin\Debug\net10.0\LuckyNumber.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\LuckyNumber\bin\Debug\net10.0\LuckyNumber.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\LuckyNumber\bin\Debug\net10.0\LuckyNumber.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\LuckyNumber\bin\Debug\net10.0\LuckyNumber.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\LuckyNumber\bin\Debug\net10.0\LuckyNumber.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\LuckyNumber\obj\Debug\net10.0\LuckyNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\LuckyNumber\obj\Debug\net10.0\LuckyNumber.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\LuckyNumber\obj\Debug\net10.0\LuckyNumber.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\LuckyNumber\obj\Debug\net10.0\LuckyNumber.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\LuckyNumber\obj\Debug\net10.0\LuckyNumber.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\LuckyNumber\obj\Debug\net10.0\refint\LuckyNumber.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\LuckyNumber\obj\Debug\net10.0\LuckyNumber.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\LuckyNumber\obj\Debug\net10.0\LuckyNumber.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day11_20Jan26\LuckyNumber\obj\Debug\net10.0\ref\LuckyNumber.dll

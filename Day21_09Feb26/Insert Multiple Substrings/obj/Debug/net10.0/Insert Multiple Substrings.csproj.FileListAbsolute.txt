@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert Multiple Substrings\bin\Debug\net10.0\Insert Multiple Substrings.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert Multiple Substrings\bin\Debug\net10.0\Insert Multiple Substrings.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert Multiple Substrings\bin\Debug\net10.0\Insert Multiple Substrings.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert Multiple Substrings\bin\Debug\net10.0\Insert Multiple Substrings.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert Multiple Substrings\bin\Debug\net10.0\Insert Multiple Substrings.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert Multiple Substrings\obj\Debug\net10.0\Insert Multiple Substrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert Multiple Substrings\obj\Debug\net10.0\Insert Multiple Substrings.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert Multiple Substrings\obj\Debug\net10.0\Insert Multiple Substrings.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert Multiple Substrings\obj\Debug\net10.0\Insert Multiple Substrings.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert Multiple Substrings\obj\Debug\net10.0\Insert Multiple Substrings.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert Multiple Substrings\obj\Debug\net10.0\refint\Insert Multiple Substrings.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert Multiple Substrings\obj\Debug\net10.0\Insert Multiple Substrings.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert Multiple Substrings\obj\Debug\net10.0\Insert Multiple Substrings.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day21_09Feb26\Insert Multiple Substrings\obj\Debug\net10.0\ref\Insert Multiple Substrings.dll

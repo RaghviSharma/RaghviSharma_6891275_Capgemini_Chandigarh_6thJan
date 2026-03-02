@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day21_09Feb26\\Sort Pipe seperated words\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC18E2E-64D4-4E56-8DA3-23780678990D}|Sort Pipe seperated words.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day21_09feb26\\sort pipe seperated words\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC18E2E-64D4-4E56-8DA3-23780678990D}|Sort Pipe seperated words.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC18E2E-64D4-4E56-8DA3-23780678990D}|Sort Pipe seperated words.csproj|c:\\capgemini_cu_sec3_.netwithazure_raghvisharma\\day21_09feb26\\sort pipe seperated words\\userprogramcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC18E2E-64D4-4E56-8DA3-23780678990D}|Sort Pipe seperated words.csproj|solutionrelative:userprogramcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserProgramCode.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day21_09Feb26\\Sort Pipe seperated words\\UserProgramCode.cs",
+              "RelativeDocumentMoniker": "UserProgramCode.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day21_09Feb26\\Sort Pipe seperated words\\UserProgramCode.cs*",
+              "RelativeToolTip": "UserProgramCode.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T05:00:18.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day21_09Feb26\\Sort Pipe seperated words\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\\Day21_09Feb26\\Sort Pipe seperated words\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T04:59:06.122Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

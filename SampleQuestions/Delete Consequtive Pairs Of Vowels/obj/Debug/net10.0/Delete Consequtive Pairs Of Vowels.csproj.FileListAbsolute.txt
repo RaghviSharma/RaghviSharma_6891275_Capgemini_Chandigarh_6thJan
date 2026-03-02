@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Delete Consequtive Pairs Of Vowels\bin\Debug\net10.0\Delete Consequtive Pairs Of Vowels.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Delete Consequtive Pairs Of Vowels\bin\Debug\net10.0\Delete Consequtive Pairs Of Vowels.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Delete Consequtive Pairs Of Vowels\bin\Debug\net10.0\Delete Consequtive Pairs Of Vowels.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Delete Consequtive Pairs Of Vowels\bin\Debug\net10.0\Delete Consequtive Pairs Of Vowels.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Delete Consequtive Pairs Of Vowels\bin\Debug\net10.0\Delete Consequtive Pairs Of Vowels.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Delete Consequtive Pairs Of Vowels\obj\Debug\net10.0\Delete Consequtive Pairs Of Vowels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Delete Consequtive Pairs Of Vowels\obj\Debug\net10.0\Delete Consequtive Pairs Of Vowels.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Delete Consequtive Pairs Of Vowels\obj\Debug\net10.0\Delete Consequtive Pairs Of Vowels.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Delete Consequtive Pairs Of Vowels\obj\Debug\net10.0\Delete Consequtive Pairs Of Vowels.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Delete Consequtive Pairs Of Vowels\obj\Debug\net10.0\Delete Consequtive Pairs Of Vowels.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Delete Consequtive Pairs Of Vowels\obj\Debug\net10.0\refint\Delete Consequtive Pairs Of Vowels.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Delete Consequtive Pairs Of Vowels\obj\Debug\net10.0\Delete Consequtive Pairs Of Vowels.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Delete Consequtive Pairs Of Vowels\obj\Debug\net10.0\Delete Consequtive Pairs Of Vowels.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\SampleQuestions\Delete Consequtive Pairs Of Vowels\obj\Debug\net10.0\ref\Delete Consequtive Pairs Of Vowels.dll

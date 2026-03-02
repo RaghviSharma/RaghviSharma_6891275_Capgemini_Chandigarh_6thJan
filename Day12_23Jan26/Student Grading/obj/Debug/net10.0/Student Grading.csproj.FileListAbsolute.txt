@@ -1,0 +1,14 @@
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\Student Grading\bin\Debug\net10.0\Student Grading.exe
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\Student Grading\bin\Debug\net10.0\Student Grading.deps.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\Student Grading\bin\Debug\net10.0\Student Grading.runtimeconfig.json
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\Student Grading\bin\Debug\net10.0\Student Grading.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\Student Grading\bin\Debug\net10.0\Student Grading.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\Student Grading\obj\Debug\net10.0\Student Grading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\Student Grading\obj\Debug\net10.0\Student Grading.AssemblyInfoInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\Student Grading\obj\Debug\net10.0\Student Grading.AssemblyInfo.cs
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\Student Grading\obj\Debug\net10.0\Student Grading.csproj.CoreCompileInputs.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\Student Grading\obj\Debug\net10.0\Student Grading.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\Student Grading\obj\Debug\net10.0\refint\Student Grading.dll
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\Student Grading\obj\Debug\net10.0\Student Grading.pdb
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\Student Grading\obj\Debug\net10.0\Student Grading.genruntimeconfig.cache
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day12_23Jan26\Student Grading\obj\Debug\net10.0\ref\Student Grading.dll
