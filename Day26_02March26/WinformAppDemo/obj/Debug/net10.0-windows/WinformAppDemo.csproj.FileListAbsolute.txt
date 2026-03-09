@@ -1,6 +1,0 @@
-C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day26_02March26\WinformAppDemo\obj\Debug\net10.0-windows\WinformAppDemo.Form1.resources
-C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day26_02March26\WinformAppDemo\obj\Debug\net10.0-windows\WinformAppDemo.csproj.GenerateResource.cache
-C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day26_02March26\WinformAppDemo\obj\Debug\net10.0-windows\WinformAppDemo.GeneratedMSBuildEditorConfig.editorconfig
-C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day26_02March26\WinformAppDemo\obj\Debug\net10.0-windows\WinformAppDemo.AssemblyInfoInputs.cache
-C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day26_02March26\WinformAppDemo\obj\Debug\net10.0-windows\WinformAppDemo.AssemblyInfo.cs
-C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day26_02March26\WinformAppDemo\obj\Debug\net10.0-windows\WinformAppDemo.csproj.CoreCompileInputs.cache
