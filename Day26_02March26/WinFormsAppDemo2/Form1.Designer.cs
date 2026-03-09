@@ -49,11 +49,11 @@
             button7 = new Button();
             dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
+			this.SuspendLayout();
+			// 
+			// label1
+			// 
+			label1.AutoSize = true;
             label1.Location = new Point(98, 45);
             label1.Name = "label1";
             label1.Size = new Size(74, 15);
@@ -250,8 +250,8 @@
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
 
         #endregion

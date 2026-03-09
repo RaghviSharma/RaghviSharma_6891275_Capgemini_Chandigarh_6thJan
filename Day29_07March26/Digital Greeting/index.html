@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Birthday Greeting Card</title>
+
+<style>
+body{
+    margin:0;
+    font-family: "Comic Sans MS", cursive;
+    background: linear-gradient(135deg,#ff9a9e,#fad0c4);
+    text-align:center;
+}
+
+/* Card */
+.card{
+    margin-top:120px;
+}
+
+h1{
+    color:#6a0dad;
+    font-size:50px;
+}
+
+p{
+    font-size:20px;
+}
+
+/* Button */
+button{
+    padding:12px 25px;
+    font-size:18px;
+    background:#ff4081;
+    color:white;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff1a66;
+}
+
+/* Hidden message */
+#surprise{
+    display:none;
+    font-size:22px;
+    color:#d10000;
+    margin-top:20px;
+}
+
+/* Balloons */
+.balloons{
+    position:fixed;
+    bottom:-100px;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    pointer-events:none;
+}
+
+.balloon{
+    width:50px;
+    height:70px;
+    border-radius:50%;
+    position:relative;
+    animation:float 6s infinite;
+}
+
+.balloon:after{
+    content:"";
+    width:2px;
+    height:40px;
+    background:black;
+    position:absolute;
+    left:50%;
+    top:70px;
+}
+
+.red{background:red;}
+.blue{background:blue;}
+.yellow{background:yellow;}
+.green{background:green;}
+.pink{background:pink;}
+
+@keyframes float{
+    0%{transform:translateY(0);}
+    100%{transform:translateY(-800px);}
+}
+
+/* Balloons appear on hover */
+.balloons{
+    opacity:0;
+    transition:0.5s;
+}
+
+body:hover .balloons{
+    opacity:1;
+}
+</style>
+
+<script>
+function showMessage(){
+    document.getElementById("surprise").style.display="block";
+    alert("🎉 Happy Birthday Moni! May your day be filled with laughter and cake! 🎂");
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>🎂 Happy Birthday Moni! 🎂</h1>
+
+<p>Hope your special day is full of happiness and sweet surprises!</p>
+
+<button onclick="showMessage()">Click for Birthday Surprise</button>
+
+<p id="surprise">✨ Wishing you lots of joy and success! ✨</p>
+
+</div>
+
+<!-- Balloons -->
+<div class="balloons">
+<div class="balloon red"></div>
+<div class="balloon blue"></div>
+<div class="balloon yellow"></div>
+<div class="balloon green"></div>
+<div class="balloon pink"></div>
+</div>
+
+</body>
+</html>

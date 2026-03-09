@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Application</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .quiz-box {
+            background: white;
+            padding: 25px;
+            width: 450px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        .option-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #f1f1f1;
+            cursor: pointer;
+            text-align: left;
+        }
+
+        .option-btn:hover {
+            background-color: #ddd;
+        }
+
+        .correct {
+            background-color: #4CAF50 !important;
+            color: white;
+        }
+
+        .wrong {
+            background-color: #f44336 !important;
+            color: white;
+        }
+
+        #nextBtn {
+            margin-top: 10px;
+            padding: 8px;
+            width: 100%;
+            background-color: #ff5e62;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #nextBtn:hover {
+            background-color: #e04b50;
+        }
+
+        #timer {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #ff5e62;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="quiz-box">
+    <h2 id="question">Question</h2>
+    <div id="timer">Time Left: 10</div>
+    <div id="options"></div>
+    <button id="nextBtn" onclick="nextQuestion()">Next</button>
+</div>
+
+<script>
+
+    const questions = [
+        {
+            question: "Which language is used for web development?",
+            options: ["Python", "JavaScript", "C++", "Java"],
+            answer: 1
+        },
+        {
+            question: "Which HTML tag is used for a paragraph?",
+            options: ["<div>", "<p>", "<h1>", "<span>"],
+            answer: 1
+        },
+        {
+            question: "Which company developed Java?",
+            options: ["Microsoft", "Google", "Sun Microsystems", "Apple"],
+            answer: 2
+        },
+        {
+            question: "CSS stands for?",
+            options: ["Computer Style Sheets", "Creative Style System", "Cascading Style Sheets", "Colorful Style Sheets"],
+            answer: 2
+        }
+    ];
+
+    let currentQuestion = 0;
+    let score = 0;
+    let timer;
+    let timeLeft = 10;
+
+    function startTimer() {
+        timeLeft = 10;
+        document.getElementById("timer").innerText = "Time Left: " + timeLeft;
+
+        timer = setInterval(() => {
+            timeLeft--;
+            document.getElementById("timer").innerText = "Time Left: " + timeLeft;
+
+            if (timeLeft === 0) {
+                clearInterval(timer);
+                nextQuestion();
+            }
+        }, 1000);
+    }
+
+    function loadQuestion() {
+        clearInterval(timer);
+        startTimer();
+
+        let q = questions[currentQuestion];
+        document.getElementById("question").innerText = q.question;
+
+        let optionsDiv = document.getElementById("options");
+        optionsDiv.innerHTML = "";
+
+        q.options.forEach((option, index) => {
+            let button = document.createElement("button");
+            button.innerText = option;
+            button.classList.add("option-btn");
+            button.onclick = () => checkAnswer(index);
+            optionsDiv.appendChild(button);
+        });
+    }
+
+    function checkAnswer(selectedIndex) {
+        clearInterval(timer);
+
+        let buttons = document.querySelectorAll(".option-btn");
+        let correctIndex = questions[currentQuestion].answer;
+
+        buttons.forEach((btn, index) => {
+            if (index === correctIndex) {
+                btn.classList.add("correct");
+            }
+            if (index === selectedIndex && index !== correctIndex) {
+                btn.classList.add("wrong");
+            }
+            btn.disabled = true;
+        });
+
+        if (selectedIndex === correctIndex) {
+            score++;
+        }
+    }
+
+    function nextQuestion() {
+        currentQuestion++;
+        if (currentQuestion < questions.length) {
+            loadQuestion();
+        } else {
+            showResult();
+        }
+    }
+
+    function showResult() {
+        document.querySelector(".quiz-box").innerHTML =
+            "<h2>Quiz Completed!</h2>" +
+            "<p>Your Score: " + score + " / " + questions.length + "</p>";
+    }
+
+    loadQuestion();
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Registration & Login</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4e73df, #1cc88a);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+            width: 350px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0 15px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input:focus {
+            border-color: #4e73df;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #4e73df;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #2e59d9;
+        }
+
+        .toggle-link {
+            text-align: center;
+            margin-top: 10px;
+            cursor: pointer;
+            color: #4e73df;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Registration Form -->
+    <div id="registerForm">
+        <h2>Register</h2>
+
+        <label>Username</label>
+        <input type="text" id="regUsername" required>
+
+        <label>Email</label>
+        <input type="email" id="regEmail" required>
+
+        <label>Password</label>
+        <input type="password" id="regPassword" required>
+
+        <label>Confirm Password</label>
+        <input type="password" id="regConfirmPassword" required>
+
+        <button onclick="registerUser()">Register</button>
+
+        <div class="toggle-link" onclick="showLogin()">
+            Already have an account? Login
+        </div>
+    </div>
+
+    <!-- Login Form -->
+    <div id="loginForm" class="hidden">
+        <h2>Login</h2>
+
+        <label>Email</label>
+        <input type="email" id="loginEmail" required>
+
+        <label>Password</label>
+        <input type="password" id="loginPassword" required>
+
+        <button onclick="loginUser()">Login</button>
+
+        <div class="toggle-link" onclick="showRegister()">
+            Don't have an account? Register
+        </div>
+    </div>
+
+</div>
+
+<script>
+
+    function showLogin() {
+        document.getElementById("registerForm").classList.add("hidden");
+        document.getElementById("loginForm").classList.remove("hidden");
+    }
+
+    function showRegister() {
+        document.getElementById("loginForm").classList.add("hidden");
+        document.getElementById("registerForm").classList.remove("hidden");
+    }
+
+    function validateEmail(email) {
+        let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+        return email.match(pattern);
+    }
+
+    function registerUser() {
+
+        let username = document.getElementById("regUsername").value;
+        let email = document.getElementById("regEmail").value;
+        let password = document.getElementById("regPassword").value;
+        let confirmPassword = document.getElementById("regConfirmPassword").value;
+
+        if (!validateEmail(email)) {
+            alert("Invalid Email Format!");
+            return;
+        }
+
+        if (password.length < 6) {
+            alert("Password must be at least 6 characters long!");
+            return;
+        }
+
+        if (password !== confirmPassword) {
+            alert("Passwords do not match!");
+            return;
+        }
+
+        let user = {
+            username: username,
+            email: email,
+            password: password
+        };
+
+        localStorage.setItem(email, JSON.stringify(user));
+
+        alert("Registration Successful!");
+        showLogin();
+    }
+
+    function loginUser() {
+
+        let email = document.getElementById("loginEmail").value;
+        let password = document.getElementById("loginPassword").value;
+
+        let storedUser = localStorage.getItem(email);
+
+        if (storedUser === null) {
+            alert("User not found! Please register.");
+            return;
+        }
+
+        let user = JSON.parse(storedUser);
+
+        if (user.password === password) {
+            alert("Login Successful! Welcome " + user.username);
+        } else {
+            alert("Incorrect Password!");
+        }
+    }
+
+</script>
+
+</body>
+</html>

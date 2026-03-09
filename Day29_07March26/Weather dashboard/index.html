@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather Dashboard</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#74ebd5,#ACB6E5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    width:350px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+h2{
+    margin-bottom:15px;
+}
+
+input{
+    padding:10px;
+    width:70%;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+button{
+    padding:10px;
+    border:none;
+    background:#4CAF50;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#3e8e41;
+}
+
+.weather-card{
+    margin-top:20px;
+    padding:15px;
+    border-radius:10px;
+    background:#f5f5f5;
+}
+
+.icon{
+    font-size:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Weather Today</h2>
+
+<input type="text" id="city" placeholder="Enter City">
+<button onclick="checkWeather()">Check Weather</button>
+
+<div id="result" class="weather-card">
+
+<p>Enter a city to see weather</p>
+
+</div>
+
+</div>
+
+<script>
+
+function checkWeather(){
+
+let city=document.getElementById("city").value.trim().toLowerCase();
+
+let temp;
+let weather;
+let icon;
+
+if(city==="paris"){
+temp="22°C";
+weather="Sunny";
+icon="☀️";
+document.body.style.background="linear-gradient(135deg,#FFD700,#FFA500)";
+}
+else if(city==="london"){
+temp="16°C";
+weather="Rainy";
+icon="🌧️";
+document.body.style.background="linear-gradient(135deg,#4facfe,#00f2fe)";
+}
+else if(city==="tokyo"){
+temp="19°C";
+weather="Cloudy";
+icon="☁️";
+document.body.style.background="linear-gradient(135deg,#bdc3c7,#2c3e50)";
+}
+else{
+temp="25°C";
+weather="Sunny";
+icon="☀️";
+document.body.style.background="linear-gradient(135deg,#FFD700,#FFA500)";
+}
+
+document.getElementById("result").innerHTML=
+"<div class='icon'>"+icon+"</div>"+
+"<h3>City: "+city.toUpperCase()+"</h3>"+
+"<p>Temperature: "+temp+"</p>"+
+"<p>Weather: "+weather+"</p>";
+
+}
+
+</script>
+
+</body>
+</html>
+

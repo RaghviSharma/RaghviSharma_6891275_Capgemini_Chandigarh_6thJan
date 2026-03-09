@@ -57,3 +57,4 @@ C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day26_02March26\WinFormsAppDemo2
 C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day26_02March26\WinFormsAppDemo2\bin\Debug\net10.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day26_02March26\WinFormsAppDemo2\obj\Debug\net10.0-windows\WinFormsAppDemo2.csproj.AssemblyReference.cache
 C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day26_02March26\WinFormsAppDemo2\obj\Debug\net10.0-windows\WinForms.D132B0C8.Up2Date
+C:\Capgemini_CU_sec3_.netWithAzure_RaghviSharma\Day26_02March26\WinFormsAppDemo2\obj\Debug\net10.0-windows\WinFormsAppDemo2.sourcelink.json

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hotel Taj Booking</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,#0f2027,#203a43,#2c5364);
+}
+
+/* Header */
+header{
+    background:#b8860b;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* Container */
+.container{
+    width:600px;
+    background:white;
+    margin:30px auto;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+}
+
+h2{
+    text-align:center;
+    color:#2c5364;
+}
+
+/* Form Styling */
+label{
+    font-weight:bold;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0 18px;
+    border-radius:6px;
+    border:1px solid #ccc;
+    font-size:15px;
+}
+
+textarea{
+    resize:none;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#b8860b;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#8b6508;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    color:white;
+    padding:15px;
+    margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    🏨 Welcome to Hotel Taj
+</header>
+
+<div class="container">
+
+<h2>Room Booking Form</h2>
+
+<form>
+
+    <label>Full Name</label>
+    <input type="text" placeholder="Enter your full name" required>
+
+    <label>Email ID</label>
+    <input type="email" placeholder="Enter your email" required>
+
+    <label>Contact Number</label>
+    <input type="tel" placeholder="Enter mobile number" required>
+
+    <label>Address</label>
+    <textarea rows="3" placeholder="Enter your address"></textarea>
+
+    <label>Number of Days</label>
+    <input type="number" placeholder="Enter number of days" required>
+
+    <label>Number of People</label>
+    <input type="number" placeholder="Enter number of people" required>
+
+    <label>Vehicle Details</label>
+    <select>
+        <option value="">Select Vehicle</option>
+        <option>Car</option>
+        <option>Bike</option>
+        <option>Bus</option>
+        <option>No Vehicle</option>
+    </select>
+
+    <label>Room Type</label>
+    <select required>
+        <option value="">Select Room Type</option>
+        <option>Standard Room</option>
+        <option>Deluxe Room</option>
+        <option>Luxury Suite</option>
+        <option>Family Room</option>
+    </select>
+
+    <label>Special Requests</label>
+    <textarea rows="3" placeholder="Any special requirement..."></textarea>
+
+    <button type="submit">Confirm Booking</button>
+
+</form>
+
+</div>
+
+<footer>
+    © 2026 Hotel Taj | Luxury & Comfort
+</footer>
+
+</body>
+</html>

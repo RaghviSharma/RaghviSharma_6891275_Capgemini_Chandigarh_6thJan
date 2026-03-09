@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List Application</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #36d1dc, #5b86e5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            width: 400px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .input-section {
+            display: flex;
+            margin-bottom: 15px;
+        }
+
+        input {
+            flex: 1;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 8px 12px;
+            margin-left: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #5b86e5;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3c6fd1;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px;
+            margin-bottom: 8px;
+            background: #f4f4f4;
+            border-radius: 5px;
+        }
+
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        .delete-btn {
+            background: red;
+        }
+
+        .delete-btn:hover {
+            background: darkred;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>To-Do List</h2>
+
+    <div class="input-section">
+        <input type="text" id="taskInput" placeholder="Enter your task">
+        <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <ul id="taskList"></ul>
+</div>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", loadTasks);
+
+    function addTask() {
+
+        let taskInput = document.getElementById("taskInput");
+        let taskText = taskInput.value.trim();
+
+        if (taskText === "") {
+            alert("Please enter a task!");
+            return;
+        }
+
+        let task = {
+            text: taskText,
+            completed: false
+        };
+
+        saveTask(task);
+        displayTask(task);
+
+        taskInput.value = "";
+    }
+
+    function displayTask(task) {
+
+        let taskList = document.getElementById("taskList");
+
+        let li = document.createElement("li");
+
+        let checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.checked = task.completed;
+
+        let span = document.createElement("span");
+        span.textContent = task.text;
+
+        if (task.completed) {
+            span.classList.add("completed");
+        }
+
+        checkbox.addEventListener("change", function() {
+            span.classList.toggle("completed");
+            updateTaskStatus(task.text, checkbox.checked);
+        });
+
+        let deleteBtn = document.createElement("button");
+        deleteBtn.textContent = "Delete";
+        deleteBtn.classList.add("delete-btn");
+
+        deleteBtn.addEventListener("click", function() {
+            li.remove();
+            deleteTask(task.text);
+        });
+
+        li.appendChild(checkbox);
+        li.appendChild(span);
+        li.appendChild(deleteBtn);
+
+        taskList.appendChild(li);
+    }
+
+    function saveTask(task) {
+
+        let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
+        tasks.push(task);
+        localStorage.setItem("tasks", JSON.stringify(tasks));
+    }
+
+    function loadTasks() {
+
+        let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
+        tasks.forEach(displayTask);
+    }
+
+    function updateTaskStatus(taskText, completed) {
+
+        let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
+
+        tasks = tasks.map(task => {
+            if (task.text === taskText) {
+                task.completed = completed;
+            }
+            return task;
+        });
+
+        localStorage.setItem("tasks", JSON.stringify(tasks));
+    }
+
+    function deleteTask(taskText) {
+
+        let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
+
+        tasks = tasks.filter(task => task.text !== taskText);
+
+        localStorage.setItem("tasks", JSON.stringify(tasks));
+    }
+
+</script>
+
+</body>
+</html>
