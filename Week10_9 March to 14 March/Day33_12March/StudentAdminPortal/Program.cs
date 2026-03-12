@@ -1,7 +1,4 @@
-using Microsoft.EntityFrameworkCore;
-using WebApplication1demo.Models;
-
-namespace WebApplication1demo
+namespace StudentAdminPortal
 {
     public class Program
     {
@@ -9,13 +6,12 @@ namespace WebApplication1demo
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-            builder.Services.AddControllersWithViews();
-			var cs1 = builder.Configuration.GetConnectionString("cs1");
-			builder.Services.AddDbContext<EmployeeDBContext>(options => options.UseSqlServer(cs1));
+			// Add services to the container.
+			builder.Services.AddControllersWithViews();
+			builder.Services.AddScoped<IAuthService, AuthService>();
+			builder.Services.AddSession();
 
 			var app = builder.Build();
-
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -24,15 +20,17 @@ namespace WebApplication1demo
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
             app.UseHttpsRedirection();
             app.UseRouting();
-
-            app.UseAuthorization();
+			app.UseSession();
+			app.UseMiddleware<AdminAuthMiddleware>();
+			app.UseAuthorization();
 
             app.MapStaticAssets();
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}")
+                pattern: "{controller=Students}/{action=Index}/{id?}")
                 .WithStaticAssets();
 
             app.Run();

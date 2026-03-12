@@ -1,7 +1,4 @@
-using Microsoft.EntityFrameworkCore;
-using WebApplication1demo.Models;
-
-namespace WebApplication1demo
+namespace LibrarySystem
 {
     public class Program
     {
@@ -11,11 +8,8 @@ namespace WebApplication1demo
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-			var cs1 = builder.Configuration.GetConnectionString("cs1");
-			builder.Services.AddDbContext<EmployeeDBContext>(options => options.UseSqlServer(cs1));
-
+			builder.Services.AddScoped<IBookRepository, BookRepository>();
 			var app = builder.Build();
-
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -24,6 +18,7 @@ namespace WebApplication1demo
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
             app.UseHttpsRedirection();
             app.UseRouting();
 
@@ -32,7 +27,7 @@ namespace WebApplication1demo
             app.MapStaticAssets();
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}")
+                pattern: "{controller=Books}/{action=Index}/{id?}")
                 .WithStaticAssets();
 
             app.Run();

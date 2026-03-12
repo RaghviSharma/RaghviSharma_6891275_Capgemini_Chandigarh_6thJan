@@ -1,0 +1,35 @@
+﻿@model IEnumerable<MVCDemoBook_ASP.Models.BookModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Book List</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Pages</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    
+    <tbody>
+        
+
+        @foreach (var item in Model)
+        {
+            <tr> <td>@item.BookName</td> <td>@item.Author</td> <td>@item.Price</td> <td>@item.Pages</td> <td>@item.Description</td> <td> <a asp-action="Edit" asp-route-id="@item.BookId" class="btn btn-warning">Edit</a> <a asp-action="Details" asp-route-id="@item.BookId" class="btn btn-info">Details</a> <a asp-action="Delete" asp-route-id="@item.BookId" class="btn btn-danger">Delete</a> </td> </tr>
+        }
+    </tbody>
+
+</table>

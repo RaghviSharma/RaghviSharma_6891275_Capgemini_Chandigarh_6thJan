@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Case_Study_Hospital.Models.Appointment>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Appointment</a>
+</p>
+
+<table class="table table-bordered table-striped">
+
+    <thead>
+        <tr>
+            <th>Appointment Date</th>
+            <th>Remarks</th>
+            <th>Doctor</th>
+            <th>Patient</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+
+            <tr>
+
+                <td>
+                    @item.AppointmentDate
+                </td>
+
+                <td>
+                    @item.Remarks
+                </td>
+
+                <td>
+                    @item.Doctor.Name
+                </td>
+
+                <td>
+                    @item.Patient.FullName
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.AppointmentId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.AppointmentId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.AppointmentId">Delete</a>
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>
