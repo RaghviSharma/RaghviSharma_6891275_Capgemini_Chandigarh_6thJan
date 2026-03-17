@@ -15,7 +15,7 @@ namespace EmployeeProjectSystem.Controllers
 			_context = context;
 		}
 
-		// INDEX
+		
 		public IActionResult Index()
 		{
 			var employees = _context.Employees
@@ -27,11 +27,11 @@ namespace EmployeeProjectSystem.Controllers
 			return View(employees);
 		}
 
-		// CREATE
 		public IActionResult Create()
 		{
 			ViewBag.Departments = new SelectList(_context.Departments, "DepartmentId", "Name");
 			ViewBag.Projects = _context.Projects.ToList();
+
 			return View();
 		}
 
@@ -41,21 +41,25 @@ namespace EmployeeProjectSystem.Controllers
 			_context.Employees.Add(employee);
 			_context.SaveChanges();
 
+			// Assign projects
 			foreach (var pid in projectIds)
 			{
-				_context.EmployeeProjects.Add(new EmployeeProject
+				var empProj = new EmployeeProject
 				{
 					EmployeeId = employee.EmployeeId,
 					ProjectId = pid,
 					AssignedDate = DateTime.Now
-				});
+				};
+
+				_context.EmployeeProjects.Add(empProj);
 			}
 
 			_context.SaveChanges();
+
 			return RedirectToAction("Index");
 		}
 
-		// EDIT
+		
 		public IActionResult Edit(int id)
 		{
 			var employee = _context.Employees.Find(id);
@@ -75,10 +79,13 @@ namespace EmployeeProjectSystem.Controllers
 			return RedirectToAction("Index");
 		}
 
-		// DELETE
+		
 		public IActionResult Delete(int id)
 		{
-			var emp = _context.Employees.Find(id);
+			var emp = _context.Employees
+				.Include(e => e.Department)
+				.FirstOrDefault(e => e.EmployeeId == id);
+
 			return View(emp);
 		}
 
@@ -87,7 +94,12 @@ namespace EmployeeProjectSystem.Controllers
 		{
 			var emp = _context.Employees.Find(id);
 
+			var empProjects = _context.EmployeeProjects
+				.Where(ep => ep.EmployeeId == id);
+
+			_context.EmployeeProjects.RemoveRange(empProjects);
 			_context.Employees.Remove(emp);
+
 			_context.SaveChanges();
 
 			return RedirectToAction("Index");
