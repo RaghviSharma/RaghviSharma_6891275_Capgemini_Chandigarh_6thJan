@@ -1,0 +1,111 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using StudentPortal.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - StudentPortal</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" asp-controller="Home" asp-action="Index">
+                🎓 StudentPortal
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <!-- LEFT -->
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                </ul>
+
+                <!-- RIGHT -->
+                <ul class="navbar-nav">
+
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <!-- Dashboard -->
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-warning text-dark me-2"
+                               asp-controller="Home" asp-action="Dashboard">
+                                Dashboard
+                            </a>
+                        </li>
+
+                        <!-- Username -->
+                        <li class="nav-item">
+                            <span class="nav-link text-white">
+                                👤 @User.Identity?.Name
+                            </span>
+                        </li>
+
+                        <!-- Logout -->
+                        <li class="nav-item">
+                            <form method="post" asp-area="Identity" asp-page="/Account/Logout">
+                                <button type="submit" class="btn btn-danger ms-2">Logout</button>
+                            </form>
+                        </li>
+                    }
+                    else
+                    {
+                        <!-- Register -->
+                        <li class="nav-item">
+                            <a class="btn btn-success me-2"
+                               asp-area="Identity" asp-page="/Account/Register">
+                                Register
+                            </a>
+                        </li>
+
+                        <!-- Login -->
+                        <li class="nav-item">
+                            <a class="btn btn-primary"
+                               asp-area="Identity" asp-page="/Account/Login">
+                                Login
+                            </a>
+                        </li>
+                    }
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="container mt-4">
+        <main role="main" class="pb-3">
+            @RenderBody()   <!-- ✅ IMPORTANT -->
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p class="mb-0">© 2026 StudentPortal</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

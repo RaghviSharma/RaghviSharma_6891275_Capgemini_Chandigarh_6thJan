@@ -1,0 +1,12 @@
+﻿@model EcommerceApp.Models.Category
+
+<h2>Add Category</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-2">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+</form>

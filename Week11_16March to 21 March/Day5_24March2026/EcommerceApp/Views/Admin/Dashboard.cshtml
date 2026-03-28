@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h2 class="mb-4">Admin Dashboard</h2>
+
+<!-- 🔥 Top Products -->
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+        Top 5 Selling Products
+    </div>
+
+    <div class="card-body">
+        <table class="table table-bordered">
+            <tr>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Total Sold</th>
+            </tr>
+
+            @foreach (var item in ViewBag.TopProducts)
+            {
+                <tr>
+                    <td>@item.ProductId</td>
+                    <td>@item.ProductName</td>
+                    <td>@item.TotalSold</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+
+<!-- 🔥 Pending Orders -->
+<div class="card">
+    <div class="card-header bg-warning">
+        Pending Shipments
+    </div>
+
+    <div class="card-body">
+        <table class="table table-bordered">
+            <tr>
+                <th>Order ID</th>
+                <th>Customer</th>
+                <th>Status</th>
+            </tr>
+
+            @foreach (var item in ViewBag.PendingOrders)
+            {
+                <tr>
+                    <td>@item.OrderId</td>
+                    <td>@item.CustomerName</td>
+                    <td>@item.Status</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

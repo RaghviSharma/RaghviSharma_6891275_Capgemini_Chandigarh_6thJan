@@ -1,0 +1,53 @@
+﻿@using Microsoft.AspNetCore.Http
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EcommerceApp</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                EcommerceApp
+            </a>
+
+            <div class="navbar-nav">
+
+                <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                <a class="nav-link" asp-controller="Customers" asp-action="Index">Customers</a>
+                <a class="nav-link" asp-controller="Categories" asp-action="Index">Categories</a>
+                <a class="nav-link" asp-controller="Products" asp-action="Index">Products</a>
+                <a class="nav-link" asp-controller="Orders" asp-action="Index">Orders</a>
+
+                @if (Context.Session.GetString("Admin") == "true")
+                {
+                    <a class="nav-link text-warning" asp-controller="Admin" asp-action="Dashboard">Dashboard</a>
+                    <a class="nav-link text-danger" asp-controller="Account" asp-action="Logout">Logout</a>
+                }
+                else
+                {
+                    <a class="nav-link text-info" asp-controller="Account" asp-action="Login">Admin Login</a>
+                }
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- 🔥 THIS IS THE MOST IMPORTANT LINE -->
+    <div class="container mt-4">
+        @RenderBody()
+    </div>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

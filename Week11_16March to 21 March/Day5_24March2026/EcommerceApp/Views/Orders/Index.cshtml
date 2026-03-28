@@ -1,0 +1,33 @@
+﻿@model IEnumerable<EcommerceApp.Models.Order>
+
+<h2>Orders</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-2">Place Order</a>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Order ID</th>
+        <th>Customer</th>
+        <th>Date</th>
+        <th>Products</th>
+        <th>Status</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.OrderId</td>
+            <td>@item.Customer?.Name</td>
+            <td>@item.OrderDate</td>
+            <td>
+                @foreach (var oi in item.OrderItems)
+                {
+                    <div>
+                        @(oi.Product.Name + " (x" + oi.Quantity + ")")
+                    </div>
+                }
+            </td>
+            <td>@item.ShippingDetail?.Status</td>
+        </tr>
+    }
+</table>

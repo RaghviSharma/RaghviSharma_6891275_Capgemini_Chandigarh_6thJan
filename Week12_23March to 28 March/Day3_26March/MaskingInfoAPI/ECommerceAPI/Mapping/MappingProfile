@@ -1,0 +1,14 @@
+using AutoMapper;
+using ECommerceAPI.Models;
+using ECommerceAPI.DTOs;
+
+namespace ECommerceAPI.Mapping;
+
+public class MappingProfile : Profile
+{
+    public MappingProfile()
+    {
+        CreateMap<User, UserDTO>();
+        CreateMap<RegisterDTO, User>();
+    }
+}

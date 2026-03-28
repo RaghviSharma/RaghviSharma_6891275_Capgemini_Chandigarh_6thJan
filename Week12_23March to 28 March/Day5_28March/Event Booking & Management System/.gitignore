@@ -1,0 +1,66 @@
+# Ignore Visual Studio temporary files and build results
+bin/
+obj/
+.vs/
+.vscode/
+
+# Ignore user-specific files
+.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Ignore Entity Framework migrations
+Migrations/
+*.db
+*.db-shm
+*.db-wal
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore publishing directory
+publish/
+PublishProfiles/
+
+# Ignore environment configuration
+appsettings.Production.json
+appsettings.*.json
+!appsettings.json
+
+# Ignore IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+*.~
+
+# Ignore local debugging files
+launchSettings.json
+
+# Ignore coverage reports
+coverage/
+*.trx
+
+# Ignore build artifacts
+artifacts/
+dist/
+
+# Ignore npm/node files (if used)
+node_modules/
+package-lock.json
+
+# Ignore Docker files in root (keep Dockerfiles for deployment)
+docker-compose.override.yml

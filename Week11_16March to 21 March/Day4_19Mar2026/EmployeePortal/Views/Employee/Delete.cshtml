@@ -1,0 +1,37 @@
+﻿@* namespace EmployeePortal.Views.Employee
+{
+    public class Delete
+    {
+    }
+} *@
+@model EmployeePortal.Models.Employee
+
+@{
+    ViewData["Title"] = "Delete Employee";
+}
+
+<div class="container mt-4">
+    <h2>Delete Employee</h2>
+
+    <div class="alert alert-danger">
+        Are you sure you want to delete this employee?
+    </div>
+
+    <dl class="row">
+        <dt class="col-sm-2">Name</dt>
+        <dd class="col-sm-10">@Model.Name</dd>
+
+        <dt class="col-sm-2">Department</dt>
+        <dd class="col-sm-10">@Model.Department</dd>
+
+        <dt class="col-sm-2">Salary</dt>
+        <dd class="col-sm-10">@Model.Salary</dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a href="/Employee" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

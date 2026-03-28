@@ -1,0 +1,18 @@
+﻿@model IEnumerable<EcommerceApp.Models.Category>
+
+<h2>Categories</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-2">Add Category</a>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Name</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+        </tr>
+    }
+</table>

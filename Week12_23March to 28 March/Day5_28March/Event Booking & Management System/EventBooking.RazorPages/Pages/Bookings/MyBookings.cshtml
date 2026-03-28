@@ -1,0 +1,67 @@
+@page
+@using EventBooking.RazorPages.Pages.Bookings
+@model MyBookingsModel
+@{
+    ViewData["Title"] = "My Bookings";
+}
+
+<div style="margin-bottom: 2rem;">
+    <h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem;">My Bookings</h1>
+    <p style="color: #6b7280;">View and manage your event bookings</p>
+</div>
+
+<div id="loadingSpinner" class="text-center" style="display:none; padding: 3rem 0;">
+    <div class="spinner-border" role="status" style="color: var(--primary-color);">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+</div>
+
+<div id="bookingsContainer" style="display:none;">
+    <div class="table-responsive">
+        <table class="table" style="border-collapse: collapse;">
+            <thead style="background-color: var(--light-bg); border-bottom: 2px solid var(--border-color);">
+                <tr>
+                    <th style="padding: 1rem 0.5rem; font-weight: 600; color: #374151;">Event</th>
+                    <th style="padding: 1rem 0.5rem; font-weight: 600; color: #374151;">Date</th>
+                    <th style="padding: 1rem 0.5rem; font-weight: 600; color: #374151;">Seats</th>
+                    <th style="padding: 1rem 0.5rem; font-weight: 600; color: #374151;">Total</th>
+                    <th style="padding: 1rem 0.5rem; font-weight: 600; color: #374151;">Status</th>
+                    <th style="padding: 1rem 0.5rem; font-weight: 600; color: #374151;">Action</th>
+                </tr>
+            </thead>
+            <tbody id="bookingsList" style="border-bottom: 1px solid var(--border-color);">
+                <!-- Bookings will be loaded here -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div id="noBookingsMessage" class="alert alert-info" style="display:none;">
+    No bookings yet. <a href="/" style="color: var(--primary-color); text-decoration: none; font-weight: 600;">Browse events</a> to get started.
+</div>
+
+<div id="errorMessage" class="alert alert-danger" style="display:none;"></div>
+
+<!-- Cancel Booking Modal -->
+<div class="modal fade" id="cancelModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="border-bottom: 1px solid var(--border-color);">
+                <h5 class="modal-title">Cancel Booking</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to cancel this booking? This action cannot be undone.</p>
+                <input type="hidden" id="cancelBookingId" />
+            </div>
+            <div class="modal-footer" style="border-top: 1px solid var(--border-color);">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keep It</button>
+                <button type="button" class="btn btn-danger" onclick="confirmCancel()">Yes, Cancel Booking</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/bookings.js"></script>
+}
