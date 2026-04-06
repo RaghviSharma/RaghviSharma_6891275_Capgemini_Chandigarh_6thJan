@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartHealthApi", "SmartHealthApi\SmartHealthApi.csproj", "{B500F57D-7F8D-2ACE-50BF-CD20636F7639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartHealthMVC", "SmartHealthMVC\SmartHealthMVC.csproj", "{56F01578-377D-A7E2-6969-0B99FE061946}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B500F57D-7F8D-2ACE-50BF-CD20636F7639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B500F57D-7F8D-2ACE-50BF-CD20636F7639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B500F57D-7F8D-2ACE-50BF-CD20636F7639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B500F57D-7F8D-2ACE-50BF-CD20636F7639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F01578-377D-A7E2-6969-0B99FE061946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F01578-377D-A7E2-6969-0B99FE061946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F01578-377D-A7E2-6969-0B99FE061946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F01578-377D-A7E2-6969-0B99FE061946}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DC80076-2481-4C9E-99ED-FB92AE0C8A7A}
+	EndGlobalSection
+EndGlobal

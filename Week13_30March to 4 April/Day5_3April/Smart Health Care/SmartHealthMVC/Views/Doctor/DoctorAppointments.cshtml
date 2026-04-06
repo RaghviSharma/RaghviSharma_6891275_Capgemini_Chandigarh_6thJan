@@ -1,0 +1,34 @@
+@model List<Appointments>
+
+<h3 class="text-center mb-4">Appointments for Selected Doctor</h3>
+
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info text-center">No appointments found for this doctor.</div>
+}
+else
+{
+    <table class="table table-striped text-center">
+        <thead>
+            <tr>
+                <th>Appointment ID</th>
+                <th>Appointment Time</th>
+                <th>Status</th>
+                <th>Patient Name</th>
+                <th>Patient Problem</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var a in Model)
+            {
+                <tr>
+                    <td>@a.AppointmentId</td>
+                    <td>@a.AppointmentTime.ToString("g")</td>
+                    <td>@a.Status</td>
+                    <td>@a.Patient?.Name</td>
+                    <td>@a.Patient?.Problem</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

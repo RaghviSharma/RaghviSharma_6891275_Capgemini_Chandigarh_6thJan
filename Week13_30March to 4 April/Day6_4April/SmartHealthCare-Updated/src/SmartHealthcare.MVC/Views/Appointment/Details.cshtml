@@ -1,0 +1,227 @@
+@model SmartHealthcare.Models.DTOs.AppointmentDTO
+@{
+    ViewData["Title"] = "Appointment Details";
+    var prescription = ViewBag.Prescription as SmartHealthcare.Models.DTOs.PrescriptionDTO;
+    var bill = ViewBag.Bill as SmartHealthcare.Models.DTOs.BillDTO;
+    var role = ViewBag.Role as string;
+}
+
+<div class="container mt-4">
+    <a href="@Url.Action("Index")" class="btn btn-outline-secondary mb-3"><i class="bi bi-arrow-left"></i> Back to Appointments</a>
+
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <!-- Main Appointment Card -->
+            <div class="card border-0 shadow-lg mb-4">
+                <div class="card-header bg-primary text-white p-4">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h3 class="mb-0"><i class="bi bi-calendar-check"></i> Appointment #@Model.Id</h3>
+                        <span class="badge bg-@GetStatusBg(Model.Status) fs-6">@Model.Status</span>
+                    </div>
+                </div>
+
+                <div class="card-body p-4">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="mb-3"><i class="bi bi-person-circle"></i> Patient Information</h5>
+                            <div class="info-box">
+                                <p class="mb-2">
+                                    <strong>Name:</strong><br />
+                                    <span class="ms-3">@Model.PatientName</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="mb-3"><i class="bi bi-hospital"></i> Doctor Information</h5>
+                            <div class="info-box">
+                                <p class="mb-2">
+                                    <strong>Name:</strong><br />
+                                    <span class="ms-3">Dr. @Model.DoctorName</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="my-4" />
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="mb-3"><i class="bi bi-clock"></i> Appointment Details</h5>
+                            <div class="info-box">
+                                <p class="mb-3">
+                                    <strong>Date &amp; Time:</strong><br />
+                                    <span class="ms-3">@Model.AppointmentDate.ToString("dddd, dd-MMMM-yyyy HH:mm")</span>
+                                </p>
+                                <p class="mb-0">
+                                    <strong>Created:</strong><br />
+                                    <span class="ms-3">@Model.CreatedAt.ToString("dd-MMM-yyyy HH:mm")</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="mb-3"><i class="bi bi-sticky"></i> Notes</h5>
+                            <div class="info-box">
+                                @if (!string.IsNullOrEmpty(Model.Notes))
+                                {
+                                    <p class="mb-0">@Model.Notes</p>
+                                }
+                                else
+                                {
+                                    <p class="mb-0 text-muted">No additional notes</p>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Prescription Section -->
+            <div class="card border-0 shadow-lg mb-4">
+                <div class="card-header bg-success text-white p-4">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0"><i class="bi bi-prescription"></i> Prescription</h4>
+                        @if (role == "Doctor" && prescription == null)
+                        {
+                            <a href="@Url.Action("Create", "Prescription", new { appointmentId = Model.Id })" class="btn btn-light">
+                                <i class="bi bi-plus-circle"></i> Add Prescription
+                            </a>
+                        }
+                    </div>
+                </div>
+                <div class="card-body p-4">
+                    @if (prescription != null)
+                    {
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <h6><i class="bi bi-clipboard-check"></i> Diagnosis</h6>
+                                <p>@prescription.Diagnosis</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h6><i class="bi bi-calendar"></i> Created</h6>
+                                <p>@prescription.CreatedAt.ToString("dd-MMM-yyyy HH:mm")</p>
+                            </div>
+                        </div>
+                        @if (!string.IsNullOrEmpty(prescription.Notes))
+                        {
+                            <div class="mb-3">
+                                <h6><i class="bi bi-sticky"></i> Notes</h6>
+                                <p>@prescription.Notes</p>
+                            </div>
+                        }
+                        @if (prescription.Medicines.Any())
+                        {
+                            <h6><i class="bi bi-capsule"></i> Medicines</h6>
+                            <div class="row">
+                                @foreach (var medicine in prescription.Medicines)
+                                {
+                                    <div class="col-md-6 mb-3">
+                                        <div class="medicine-box">
+                                            <h6>@medicine.Name</h6>
+                                            <p><strong>Dosage:</strong> @medicine.Dosage</p>
+                                            <p><strong>Duration:</strong> @medicine.Duration</p>
+                                            @if (!string.IsNullOrEmpty(medicine.Instructions))
+                                            {
+                                                <p><strong>Instructions:</strong> @medicine.Instructions</p>
+                                            }
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <p class="text-muted">No prescription available yet.</p>
+                    }
+                </div>
+            </div>
+
+            <!-- Bill Section -->
+            <div class="card border-0 shadow-lg mb-4">
+                <div class="card-header bg-info text-white p-4">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0"><i class="bi bi-receipt"></i> Bill</h4>
+                        @if ((role == "Admin" || role == "Doctor") && bill == null)
+                        {
+                            <a href="@Url.Action("Create", "Bill", new { appointmentId = Model.Id })" class="btn btn-light">
+                                <i class="bi bi-plus-circle"></i> Generate Bill
+                            </a>
+                        }
+                        else if (role == "Admin" && bill != null)
+                        {
+                            <a href="@Url.Action("Edit", "Bill", new { id = Model.Id })" class="btn btn-light">
+                                <i class="bi bi-pencil"></i> Edit Bill
+                            </a>
+                        }
+                    </div>
+                </div>
+                <div class="card-body p-4">
+                    @if (bill != null)
+                    {
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <h6><i class="bi bi-cash"></i> Consultation Fee</h6>
+                                <p class="h5 text-primary">$@bill.ConsultationFee.ToString("F2")</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h6><i class="bi bi-capsule"></i> Medicine Charges</h6>
+                                <p class="h5 text-primary">$@bill.MedicineCharges.ToString("F2")</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h6><i class="bi bi-calculator"></i> Total</h6>
+                                <p class="h4 text-success">$@bill.Total.ToString("F2")</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6><i class="bi bi-check-circle"></i> Payment Status</h6>
+                                <span class="badge bg-@(bill.PaymentStatus == "Paid" ? "success" : "warning") fs-6">@bill.PaymentStatus</span>
+                            </div>
+                            <div class="col-md-6">
+                                <h6><i class="bi bi-calendar"></i> Created</h6>
+                                <p>@bill.CreatedAt.ToString("dd-MMM-yyyy HH:mm")</p>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="text-muted">No bill generated yet.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@functions {
+    private string GetStatusBg(string status)
+    {
+        return status?.ToLower() switch
+        {
+            "pending" => "warning",
+            "completed" => "success",
+            "cancelled" => "danger",
+            _ => "secondary"
+        };
+    }
+}
+
+<style>
+    .info-box {
+        background-color: #f8f9fa;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-left: 4px solid #0d6efd;
+    }
+
+    .medicine-box {
+        background-color: #f0f8ff;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-left: 4px solid #198754;
+    }
+
+    .card {
+        border-radius: 0.5rem;
+    }
+</style>

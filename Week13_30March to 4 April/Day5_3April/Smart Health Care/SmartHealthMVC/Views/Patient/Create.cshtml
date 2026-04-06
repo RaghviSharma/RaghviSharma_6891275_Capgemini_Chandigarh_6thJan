@@ -1,0 +1,21 @@
+<h3 class="text-center">Add Patient</h3>
+
+<div class="container-fluid d-flex justify-content-center align-item-center">
+    <div class="card border-0 rounded-4 shadow p-4 mt-4 w-50">
+        <form asp-controller="Patient" asp-action="Create" method="post">
+            <div class="mb-3">
+                <label class="form-label" for="Name">Enter Patient Name</label>
+                <input class="form-control" id="Name" name="Name" placeholder="Enter your Name" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label" for="Problem">Enter Patient Issue</label>
+                <input class="form-control"id="Problem" name="Problem" placeholder="Specify Issue/Problem/Disease" />
+            </div>
+
+            <div class="mb-3 text-center">
+                <button class="btn btn-dark" >Add Patient</button>
+            </div>
+        </form>
+    </div>
+</div>

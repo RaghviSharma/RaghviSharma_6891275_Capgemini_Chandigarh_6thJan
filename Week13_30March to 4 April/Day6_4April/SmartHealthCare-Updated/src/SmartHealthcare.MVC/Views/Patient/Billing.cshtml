@@ -1,0 +1,79 @@
+@model IEnumerable<dynamic>
+@{
+    ViewData["Title"] = "My Billing";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2><i class="bi bi-receipt"></i> My Billing</h2>
+        <a href="@Url.Action("Profile")" class="btn btn-outline-secondary">
+            <i class="bi bi-arrow-left"></i> Back to Profile
+        </a>
+    </div>
+
+    @if (Model.Any())
+    {
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                var appointment = item.Appointment as SmartHealthcare.Models.DTOs.AppointmentDTO;
+                var bill = item.Bill as SmartHealthcare.Models.DTOs.BillDTO;
+
+                <div class="col-md-6 mb-4">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-header bg-info text-white p-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">
+                                    <i class="bi bi-calendar-check"></i>
+                                    Appointment #@appointment.Id
+                                </h5>
+                                <span class="badge bg-@(bill.PaymentStatus == "Paid" ? "success" : "warning")">@bill.PaymentStatus</span>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <h6 class="text-muted">Doctor</h6>
+                                    <p>Dr. @appointment.DoctorName</p>
+                                </div>
+                                <div class="col-6">
+                                    <h6 class="text-muted">Date</h6>
+                                    <p>@appointment.AppointmentDate.ToString("dd-MMM-yyyy")</p>
+                                </div>
+                            </div>
+
+                            <hr />
+
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <h6 class="text-success">Consultation Fee</h6>
+                                    <p class="h5">$@bill.ConsultationFee.ToString("F2")</p>
+                                </div>
+                                <div class="col-6">
+                                    <h6 class="text-warning">Medicine Charges</h6>
+                                    <p class="h5">$@bill.MedicineCharges.ToString("F2")</p>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <h4 class="text-primary">Total: $@bill.Total.ToString("F2")</h4>
+                            </div>
+
+                            <div class="mt-3 text-center">
+                                <small class="text-muted">Bill created on @bill.CreatedAt.ToString("dd-MMM-yyyy HH:mm")</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="text-center mt-5">
+            <i class="bi bi-receipt-x display-4 text-muted"></i>
+            <h4 class="mt-3 text-muted">No Bills Found</h4>
+            <p class="text-muted">Your appointment bills will appear here once they are generated.</p>
+        </div>
+    }
+</div>

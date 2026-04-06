@@ -1,0 +1,136 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    var token = Context.Session.GetString("Token");
+}
+
+@* <section class="hero-panel mb-5">
+    <div class="hero-copy">
+        <span class="eyebrow"><i class="bi bi-shield-check"></i> Connected Care Platform</span>
+        <h1>Smart Healthcare Management System</h1>
+        <div class="hero-actions">
+            @if (token == null)
+            {
+                <a asp-controller="Account" asp-action="Register" class="btn btn-light btn-lg">
+                    <i class="bi bi-person-plus"></i> Get Started
+                </a>
+                <a asp-controller="Doctor" asp-action="Index" class="btn btn-outline-light btn-lg">
+                    <i class="bi bi-search"></i> Browse Doctors
+                </a>
+            }
+            else
+            {
+                <a asp-controller="Dashboard" asp-action="Index" class="btn btn-light btn-lg">
+                    <i class="bi bi-speedometer2"></i> Go to Dashboard
+                </a>
+                <a asp-controller="Appointment" asp-action="Create" class="btn btn-outline-light btn-lg">
+                    <i class="bi bi-calendar-check"></i> Book Appointment
+                </a>
+            }
+        </div>
+    </div>
+</section> *@
+
+@* <section class="feature-grid">
+    <article class="feature-card">
+        <div class="feature-icon bg-primary"><i class="bi bi-person-lines-fill"></i></div>
+        <h3><i class="bi bi-people"></i> For Patients</h3>
+        <a href="@Url.Action("Index", "Doctor")" class="btn btn-sm btn-outline-primary mt-3">Learn More</a>
+    </article>
+    
+    <article class="feature-card">
+        <div class="feature-icon bg-success"><i class="bi bi-stethoscope"></i></div>
+        <h3><i class="bi bi-hospital"></i> For Doctors</h3>
+        <a href="@Url.Action("Register", "Account")" class="btn btn-sm btn-outline-success mt-3">Register Now</a>
+    </article>
+    
+    <article class="feature-card">
+        <div class="feature-icon bg-info"><i class="bi bi-graph-up"></i></div>
+        <h3><i class="bi bi-speedometer2"></i> For Administrators</h3>
+        <a href="@Url.Action("Login", "Account")" class="btn btn-sm btn-outline-info mt-3">Admin Login</a>
+    </article>
+</section> *@
+
+<h1>Smart HealthCare Management System</h1>
+
+<style>
+    .hero-panel {
+        background: linear-gradient(135deg, #667eea 0%, pink 100%);
+        border-radius: 1rem;
+        padding: 3rem 2rem;
+        color: white;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .feature-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .feature-card {
+        background: white;
+        border-radius: 0.75rem;
+        padding: 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        border-left: 4px solid #0d6efd;
+    }
+
+    .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .feature-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 0.75rem;
+        color: white;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .stat-card {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 1rem;
+        border-radius: 0.5rem;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .stat-icon {
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.2);
+    }
+
+    .stat-value {
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+
+    .stat-label {
+        font-size: 0.875rem;
+        opacity: 0.8;
+    }
+</style>
+    @* <article class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-chart-line"></i></div>
+        <h3>Admin</h3>
+        <p>Oversee users, monitor activity, and keep operations organized at a glance.</p>
+    </article> *@
+</section>
+</div>

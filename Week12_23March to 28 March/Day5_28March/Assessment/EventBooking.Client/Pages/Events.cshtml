@@ -1,0 +1,212 @@
+@page
+
+<h2 class="text-center mt-4">Events</h2>
+
+<div class="container m-5">
+    <!-- ✅ ADMIN ADD EVENT FORM -->
+    <div id="adminSection" class="card p-4 shadow mb-4 fade-in-up" style="display:none;">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h4>Add New Event</h4>
+            <a href="/AdminDashboard" class="btn btn-sm btn-info">📊 View Dashboard</a>
+        </div>
+
+        <input type="text" id="title" class="form-control mb-2" placeholder="Event Title" />
+        <input type="text" id="description" class="form-control mb-2" placeholder="Description" />
+        <input type="text" id="location" class="form-control mb-2" placeholder="Location" />
+        <input type="date" id="date" class="form-control mb-2" />
+        <input type="number" id="seats" class="form-control mb-2" placeholder="Available Seats" min="1" />
+
+        <button class="btn btn-primary" onclick="addEvent()">Add Event</button>
+    </div>
+
+    <!-- ✅ EVENTS LIST -->
+    <div id="events" class="row"></div>
+    <div id="noEvents" class="alert alert-info text-center" style="display:none;">
+        No events available.
+    </div>
+</div>
+
+<script>
+    // Check if user is logged in
+    window.onload = function() {
+        const token = localStorage.getItem("token");
+        if (!token) {
+            alert("Please login first");
+            window.location.href = "/Login";
+            return;
+        }
+        
+        checkAdmin();
+        loadEvents();
+    };
+
+    // ✅ SHOW ADMIN FORM ONLY FOR ADMINS
+    function checkAdmin() {
+        let role = localStorage.getItem("role");
+        console.log("User Role:", role);
+
+        if (role === "Admin") {
+            document.getElementById("adminSection").style.display = "block";
+        }
+    }
+
+    // ✅ LOAD ALL EVENTS
+    function loadEvents() {
+        fetch("http://localhost:5003/api/events")
+            .then(res => res.json())
+            .then(data => {
+                let userRole = localStorage.getItem("role");
+                let html = "";
+
+                if (!data || data.length === 0) {
+                    document.getElementById("noEvents").style.display = "block";
+                    return;
+                }
+
+                document.getElementById("noEvents").style.display = "none";
+
+                data.forEach(e => {
+                    const eventDate = new Date(e.date).toLocaleDateString();
+                    
+                    html += `
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100 shadow fade-in-up">
+                            <div class="card-body">
+                                <h5 class="card-title">${e.title}</h5>
+                                <p class="card-text">${e.description || ""}</p>
+                                <p><b>📍 Location:</b> ${e.location}</p>
+                                <p><b>📅 Date:</b> ${eventDate}</p>
+                                <p><b>💺 Available Seats:</b> <span class="badge bg-info">${e.availableSeats}</span></p>
+                    `;
+
+                    // Show book button only for users
+                    if (userRole === "User") {
+                        html += `
+                                <input type="number" id="seats${e.id}" class="form-control mb-2" 
+                                       placeholder="How many seats?" min="1" max="${e.availableSeats}" />
+                                <button class="btn btn-success w-100" onclick="book(${e.id})">
+                                    📝 Register for Event
+                                </button>
+                        `;
+                    }
+
+                    html += `
+                            </div>
+                        </div>
+                    </div>`;
+                });
+
+                document.getElementById("events").innerHTML = html;
+            })
+            .catch(err => {
+                console.error(err);
+                document.getElementById("noEvents").innerHTML = "Error loading events";
+                document.getElementById("noEvents").style.display = "block";
+            });
+    }
+
+    // ✅ ADMIN ADD EVENT
+    function addEvent() {
+        let title = document.getElementById("title").value.trim();
+        let description = document.getElementById("description").value.trim();
+        let location = document.getElementById("location").value.trim();
+        let date = document.getElementById("date").value;
+        let seats = document.getElementById("seats").value;
+
+        if (!title || !location || !date || !seats) {
+            alert("Please fill all fields");
+            return;
+        }
+
+        let eventData = {
+            title: title,
+            description: description,
+            location: location,
+            date: date,
+            availableSeats: parseInt(seats)
+        };
+
+        fetch("http://localhost:5003/api/events", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": "Bearer " + localStorage.getItem("token")
+            },
+            body: JSON.stringify(eventData)
+        })
+        .then(res => {
+            if (res.status === 401 || res.status === 403) {
+                alert("Only Admin can add events");
+                return;
+            }
+            if (!res.ok) throw new Error("Failed to add event");
+            return res.text();
+        })
+        .then(data => {
+            if (data) {
+                alert("✅ Event Added Successfully");
+
+                // Clear form
+                document.getElementById("title").value = "";
+                document.getElementById("description").value = "";
+                document.getElementById("location").value = "";
+                document.getElementById("date").value = "";
+                document.getElementById("seats").value = "";
+
+                // Reload event list
+                loadEvents();
+            }
+        })
+        .catch(err => {
+            console.error(err);
+            alert("Error adding event: " + err);
+        });
+    }
+
+    // ✅ USER BOOK EVENT
+    function book(eventId) {
+        let seats = document.getElementById("seats" + eventId).value;
+
+        if (!seats || seats <= 0) {
+            alert("Please enter valid number of seats");
+            return;
+        }
+
+        fetch("http://localhost:5003/api/bookings", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": "Bearer " + localStorage.getItem("token")
+            },
+            body: JSON.stringify({
+                eventId: parseInt(eventId),
+                seatsBooked: parseInt(seats)
+            })
+        })
+        .then(res => {
+            if (res.status === 401) {
+                alert("Login first");
+                window.location.href = "/Login";
+                return;
+            }
+            if (!res.ok) throw new Error("Booking failed");
+            return res.json();
+        })
+        .then(data => {
+            alert("✅ Booking Successful! Check My Bookings to see your reservation.");
+            loadEvents(); // Refresh to see updated seats
+        })
+        .catch(err => {
+            alert("Booking Error: " + err);
+        });
+    }
+
+    // Logout function
+    function logout() {
+        localStorage.removeItem("token");
+        localStorage.removeItem("role");
+        localStorage.removeItem("username");
+        alert("Logged out successfully");
+        window.location.href = "/Login";
+    }
+</script>

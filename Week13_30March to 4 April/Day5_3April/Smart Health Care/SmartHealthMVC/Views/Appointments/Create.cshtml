@@ -1,0 +1,65 @@
+@using SmartHealthMVC.Models
+
+@{
+    ViewData["Title"] = "Book Appointment";
+
+    var doctors = ViewBag.Doctors as List<Doctor> ?? new List<Doctor>();
+    var patients = ViewBag.Patients as List<Patient> ?? new List<Patient>();
+}
+
+<div class="container d-flex justify-content-center align-items-center mt-4">
+    <div class="card shadow-lg border-0 rounded-4 p-4" style="max-width: 500px; width: 100%;">
+
+        <!-- Header -->
+        <div class="text-center mb-4">
+            <h3 class="fw-bold text-dark">Book Appointment</h3>
+            <p class="text-muted small">Fill the details to schedule your appointment</p>
+        </div>
+
+        <form asp-action="Create" method="post">
+
+            <!-- Doctor -->
+            <div class="mb-3">
+                <label for="DoctorId" class="form-label fw-semibold">Select Doctor</label>
+                <select class="form-select rounded-3 shadow-sm" id="DoctorId" name="DoctorId" required>
+                    <option value="">Select Doctor</option>
+                    @foreach (var doctor in doctors)
+                    {
+                        <option value="@doctor.Id">@doctor.Name</option>
+                    }
+                </select>
+            </div>
+
+            <!-- Patient -->
+            <div class="mb-3">
+                <label for="PatientId" class="form-label fw-semibold"> Select Patient</label>
+                <select class="form-select rounded-3 shadow-sm" id="PatientId" name="PatientId" required>
+                    <option value="">Select Patient </option>
+                    @foreach (var patient in patients)
+                    {
+                        <option value="@patient.Id">@patient.Name</option>
+                    }
+                </select>
+            </div>
+
+            <!-- Problem -->
+            <div class="mb-4">
+                <label for="Problem" class="form-label fw-semibold"> Describe Problem</label>
+                <textarea class="form-control rounded-3 shadow-sm"
+                          id="Problem"
+                          name="Problem"
+                          rows="3"
+                          placeholder="Describe your issue..."
+                          required></textarea>
+            </div>
+
+            <!-- Button -->
+            <div class="d-grid">
+                <button type="submit" class="btn btn-dark rounded-3 py-2 fw-semibold">
+                     Book Appointment
+                </button>
+            </div>
+
+        </form>
+    </div>
+</div>

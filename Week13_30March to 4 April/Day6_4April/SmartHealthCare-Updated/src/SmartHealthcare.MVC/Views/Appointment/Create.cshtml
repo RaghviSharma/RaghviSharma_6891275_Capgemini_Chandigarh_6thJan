@@ -1,0 +1,147 @@
+@model SmartHealthcare.Models.DTOs.CreateAppointmentDTO
+
+@{
+    ViewData["Title"] = "Book Appointment";
+    var doctors = ViewBag.Doctors as IEnumerable<SmartHealthcare.Models.DTOs.DoctorDTO> 
+                  ?? Enumerable.Empty<SmartHealthcare.Models.DTOs.DoctorDTO>();
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+
+            <a href="@Url.Action("Index")" class="btn btn-outline-light mb-3">
+                <i class="fa fa-arrow-left"></i> Back
+            </a>
+
+            <!-- 🔥 MAIN CARD -->
+            <div class="card p-4">
+
+                <h3 class="mb-4">
+                    <i class="fa fa-calendar-check text-info"></i> Book Appointment
+                </h3>
+
+                <form asp-action="Create" method="post" novalidate>
+
+                    <div asp-validation-summary="All" class="alert alert-danger"></div>
+
+                    <!-- Doctor Selection -->
+                    <div class="mb-4">
+                        <label asp-for="DoctorId" class="form-label fw-bold">
+                            Select Doctor *
+                        </label>
+
+                        <select asp-for="DoctorId" class="form-control">
+                            <option value="">-- Choose a doctor --</option>
+
+                            @foreach (var doctor in doctors)
+                            {
+                                <option value="@doctor.Id">
+                                    @doctor.FullName
+                                </option>
+                            }
+                        </select>
+
+                        <span asp-validation-for="DoctorId" class="text-danger small"></span>
+                    </div>
+
+                    <!-- Date -->
+                    <div class="mb-4">
+                        <label asp-for="AppointmentDate" class="form-label fw-bold">
+                            Appointment Date & Time *
+                        </label>
+
+                        <input asp-for="AppointmentDate" type="datetime-local" class="form-control" />
+
+                        <small class="text-white-50">
+                            Select a future date and time
+                        </small>
+
+                        <span asp-validation-for="AppointmentDate" class="text-danger small"></span>
+                    </div>
+
+                    <!-- Notes -->
+                    <div class="mb-4">
+                        <label asp-for="Notes" class="form-label fw-bold">
+                            Additional Notes
+                        </label>
+
+                        <textarea asp-for="Notes" class="form-control" rows="4"
+                                  placeholder="Describe symptoms or concerns..."></textarea>
+
+                        <span asp-validation-for="Notes" class="text-danger small"></span>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="d-flex justify-content-between">
+                        <button type="submit" class="btn btn-primary">
+                            Book Appointment
+                        </button>
+
+                        <a href="@Url.Action("Index")" class="btn btn-outline-light">
+                            Cancel
+                        </a>
+                    </div>
+
+                </form>
+            </div>
+
+            <!-- 🔥 INFO BOX -->
+            <div class="card mt-4 p-4">
+                <h5><i class="fa fa-info-circle text-info"></i> Important Info</h5>
+
+                <ul class="text-white-50 mt-3 mb-0">
+                    <li>Arrive 10 minutes early</li>
+                    <li>Bring ID and documents</li>
+                    <li>Cancel at least 24 hours before</li>
+                    <li>For emergencies, contact directly</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<style>
+
+/* 🔥 DARK FORM FIX */
+.form-control {
+    background: #020617;
+    border: 1px solid #1e293b;
+    color: white;
+}
+
+.form-control:focus {
+    background: #020617;
+    color: white;
+    border-color: #22d3ee;
+    box-shadow: 0 0 10px rgba(34, 211, 238, 0.3);
+}
+
+/* SELECT */
+select.form-control {
+    background: #020617;
+    color: white;
+}
+
+/* PLACEHOLDER */
+::placeholder {
+    color: #94a3b8;
+}
+
+/* CARD */
+.card {
+    border-radius: 16px;
+}
+
+/* BUTTON */
+.btn-primary {
+    background: linear-gradient(45deg, #22d3ee, #6366f1);
+    border: none;
+}
+
+</style>

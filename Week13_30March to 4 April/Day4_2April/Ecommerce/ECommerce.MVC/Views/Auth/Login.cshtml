@@ -1,0 +1,28 @@
+@model LoginViewModel
+
+<div class="center-box">
+    <div class="card p-4 shadow">
+
+        <h3 class="text-center mb-3">🛒 E-Commerce Login</h3>
+
+        <form method="post">
+
+            <input asp-for="Username" class="form-control mb-3" placeholder="Username" />
+
+            <input asp-for="Password" type="password" class="form-control mb-3" placeholder="Password" />
+
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+
+        </form>
+
+        @if (ViewBag.Error != null)
+        {
+            <p class="text-danger text-center mt-2">@ViewBag.Error</p>
+        }
+
+        <p class="text-muted text-center mt-3">
+            Admin: admin/123 | User: user/123
+        </p>
+
+    </div>
+</div>

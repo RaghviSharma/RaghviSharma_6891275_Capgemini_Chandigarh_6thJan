@@ -1,120 +1,82 @@
-using EventBookingAPI.Data;
-using EventBookingAPI.DTOs;
+using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using EventBookingAPI.Models;
-using Microsoft.EntityFrameworkCore;
-using System.Linq;
 
 namespace EventBookingAPI.Services
 {
-    public interface IAuthService
+    public class AuthService
     {
-        Task<AuthResponseDto> RegisterAsync(RegisterDto registerDto);
-        Task<AuthResponseDto> LoginAsync(LoginDto loginDto);
-        Task<AppUser> GetUserByEmailAsync(string email);
-    }
+        private readonly IConfiguration _configuration;
 
-    public class AuthService : IAuthService
-    {
-        private readonly EventBookingDbContext _context;
-        private readonly ITokenService _tokenService;
-        private readonly ILogger<AuthService> _logger;
-
-        public AuthService(EventBookingDbContext context, ITokenService tokenService, ILogger<AuthService> logger)
+        public AuthService(IConfiguration configuration)
         {
-            _context = context;
-            _tokenService = tokenService;
-            _logger = logger;
+            _configuration = configuration;
         }
 
-        public async Task<AuthResponseDto> RegisterAsync(RegisterDto registerDto)
+        // 🔐 REGISTER
+        public object Register(User user)
         {
-            try
+            // Normally you would save user to DB here
+
+            var token = GenerateJwtToken(user);
+
+            return new
             {
-                // Check if user already exists
-                var existingUser = _context.Users.FirstOrDefault(u => u.Email == registerDto.Email);
-                if (existingUser != null)
-                {
-                    return new AuthResponseDto
-                    {
-                        Success = false,
-                        Message = "User already exists with this email"
-                    };
-                }
-
-                var user = new AppUser
-                {
-                    Email = registerDto.Email,
-                    FullName = registerDto.FullName,
-                    PhoneNumber = registerDto.PhoneNumber,
-                    PasswordHash = BCrypt.Net.BCrypt.HashPassword(registerDto.Password)
-                };
-
-                _context.Users.Add(user);
-                await _context.SaveChangesAsync();
-
-                var token = _tokenService.GenerateToken(user);
-
-                return new AuthResponseDto
-                {
-                    Success = true,
-                    Message = "Registration successful",
-                    Token = token,
-                    UserId = user.Id,
-                    Email = user.Email,
-                    FullName = user.FullName
-                };
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Registration error: {ex.Message}");
-                return new AuthResponseDto
-                {
-                    Success = false,
-                    Message = "Registration failed"
-                };
-            }
+                token = token,
+                userId = user.Id,
+                email = user.Email,
+                fullName = user.FullName
+            };
         }
 
-        public async Task<AuthResponseDto> LoginAsync(LoginDto loginDto)
+        // 🔐 LOGIN
+        public object Login(User user)
         {
-            try
-            {
-                var user = _context.Users.FirstOrDefault(u => u.Email == loginDto.Email);
-                if (user == null || !BCrypt.Net.BCrypt.Verify(loginDto.Password, user.PasswordHash))
-                {
-                    return new AuthResponseDto
-                    {
-                        Success = false,
-                        Message = "Invalid email or password"
-                    };
-                }
+            // Normally validate user from DB
 
-                var token = _tokenService.GenerateToken(user);
+            var token = GenerateJwtToken(user);
 
-                return new AuthResponseDto
-                {
-                    Success = true,
-                    Message = "Login successful",
-                    Token = token,
-                    UserId = user.Id,
-                    Email = user.Email,
-                    FullName = user.FullName
-                };
-            }
-            catch (Exception ex)
+            return new
             {
-                _logger.LogError($"Login error: {ex.Message}");
-                return new AuthResponseDto
-                {
-                    Success = false,
-                    Message = "Login failed"
-                };
-            }
+                token = token,
+                userId = user.Id,
+                email = user.Email,
+                fullName = user.FullName
+            };
         }
 
-        public async Task<AppUser> GetUserByEmailAsync(string email)
+        // 🔐 JWT GENERATION (FIXED)
+        private string GenerateJwtToken(User user)
         {
-            return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+            var key = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(_configuration["Jwt:Key"])
+            );
+
+            var credentials = new SigningCredentials(
+                key,
+                SecurityAlgorithms.HmacSha256
+            );
+
+            var claims = new[]
+            {
+                new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+                new Claim("id", user.Id.ToString()),
+                new Claim("name", user.FullName)
+            };
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["Jwt:Issuer"],
+                audience: _configuration["Jwt:Audience"],
+                claims: claims,
+                expires: DateTime.Now.AddHours(2),
+                signingCredentials: credentials
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }

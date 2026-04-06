@@ -1,0 +1,47 @@
+@model List<Doctor>
+
+<h4 class="text-center">Available Doctors in Hospital</h4>
+
+<div class="container">
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-warning text-center">
+            No doctors available.
+        </div>
+    }
+    else
+    {
+        <div class="container mt-4">
+            <table class="table table-striped text-center">
+                <thead>
+                    <th>Id</th>
+                    <th>Doctor Name</th>
+                    <th>Mobile Number</th>
+                    <th>Details</th>
+                </thead>
+                <tbody>
+                    @foreach(var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>@item.PhoneNumber</td>
+                            <td class="d-flex justify-content-center align-item-center gap-2">
+                                <form asp-controller="Doctor" asp-action="Remove" method="post">
+                                    <input type="hidden" name="id" value="@item.Id" />
+                                    <button class="btn btn-danger">Remove</button> 
+                                </form>
+                                
+                                <a asp-action="DoctorAppointments" asp-route-doctorId="@item.Id" class="btn btn-primary">
+                                    Show Appointments
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+
+</div>

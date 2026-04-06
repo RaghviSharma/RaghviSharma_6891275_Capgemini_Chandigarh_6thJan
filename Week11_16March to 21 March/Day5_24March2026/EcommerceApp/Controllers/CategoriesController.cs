@@ -26,7 +26,7 @@ public class CategoriesController : Controller
 	{
 		if (ModelState.IsValid)
 		{
-			_context.Categories.Add(category);
+			_context.Categories.Add(category);z
 			_context.SaveChanges();
 			return RedirectToAction("Index");
 		}

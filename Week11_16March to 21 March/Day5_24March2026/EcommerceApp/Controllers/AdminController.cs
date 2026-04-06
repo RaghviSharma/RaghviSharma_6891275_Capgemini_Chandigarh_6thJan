@@ -13,7 +13,6 @@ public class AdminController : Controller
 
 	public IActionResult Dashboard()
 	{
-		// 🔥 Top 5 Selling Products
 		if (HttpContext.Session.GetString("Admin") != "true")
 		{
 			return RedirectToAction("Login", "Account");

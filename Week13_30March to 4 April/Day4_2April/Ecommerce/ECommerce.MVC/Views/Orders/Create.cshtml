@@ -1,0 +1,30 @@
+<div class="center-box">
+    <div class="card p-4 shadow">
+
+        <h3 class="text-center mb-3">🛍️ Place Order</h3>
+
+        <form method="post">
+
+            <input name="UserId" type="number"
+                   class="form-control mb-3"
+                   placeholder="Enter User ID" required />
+
+            <button type="submit" class="btn btn-success w-100">
+                Place Order
+            </button>
+
+        </form>
+
+        @if (ViewBag.Error != null)
+        {
+            <p class="text-danger text-center mt-2">@ViewBag.Error</p>
+        }
+
+        <div class="text-center mt-3">
+            <a href="/Order/Index" class="text-decoration-none">
+                ← Back to Orders
+            </a>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,90 @@
+@model IEnumerable<dynamic>
+@{
+    ViewData["Title"] = "Medical History";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2><i class="bi bi-journal-medical"></i> Medical History</h2>
+        <a href="@Url.Action("Profile")" class="btn btn-outline-secondary">
+            <i class="bi bi-arrow-left"></i> Back to Profile
+        </a>
+    </div>
+
+    @if (Model.Any())
+    {
+        <div class="row">
+            @foreach (var record in Model)
+            {
+                var appointment = record.Appointment as SmartHealthcare.Models.DTOs.AppointmentDTO;
+                var prescription = record.Prescription as SmartHealthcare.Models.DTOs.PrescriptionDTO;
+
+                <div class="col-md-12 mb-4">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-header bg-primary text-white p-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">
+                                    <i class="bi bi-calendar-check"></i>
+                                    Appointment on @appointment.AppointmentDate.ToString("dddd, dd MMMM yyyy")
+                                </h5>
+                                <small>Dr. @appointment.DoctorName</small>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h6 class="text-success"><i class="bi bi-clipboard-check"></i> Diagnosis</h6>
+                                    <p>@prescription.Diagnosis</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6 class="text-info"><i class="bi bi-calendar"></i> Prescription Date</h6>
+                                    <p>@prescription.CreatedAt.ToString("dd-MMM-yyyy HH:mm")</p>
+                                </div>
+                            </div>
+
+                            @if (!string.IsNullOrEmpty(prescription.Notes))
+                            {
+                                <div class="mt-3">
+                                    <h6 class="text-muted"><i class="bi bi-sticky"></i> Notes</h6>
+                                    <p>@prescription.Notes</p>
+                                </div>
+                            }
+
+                            @if (prescription.Medicines.Any())
+                            {
+                                <div class="mt-3">
+                                    <h6 class="text-warning"><i class="bi bi-capsule"></i> Prescribed Medicines</h6>
+                                    <div class="row">
+                                        @foreach (var medicine in prescription.Medicines)
+                                        {
+                                            <div class="col-md-6 mb-2">
+                                                <div class="border rounded p-2 bg-light">
+                                                    <strong>@medicine.Name</strong><br />
+                                                    <small>
+                                                        Dosage: @medicine.Dosage | Duration: @medicine.Duration
+                                                        @if (!string.IsNullOrEmpty(medicine.Instructions))
+                                                        {
+                                                            <text><br />Instructions: @medicine.Instructions</text>
+                                                        }
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="text-center mt-5">
+            <i class="bi bi-journal-x display-4 text-muted"></i>
+            <h4 class="mt-3 text-muted">No Medical History Found</h4>
+            <p class="text-muted">Your completed appointments with prescriptions will appear here.</p>
+        </div>
+    }
+</div>

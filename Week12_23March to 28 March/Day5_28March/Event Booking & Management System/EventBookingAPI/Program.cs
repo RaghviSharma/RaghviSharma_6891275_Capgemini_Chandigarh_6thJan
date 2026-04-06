@@ -7,6 +7,9 @@ using EventBookingAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Force the API to a non-blocked local port
+builder.WebHost.UseUrls("http://localhost:5010");
+
 // Add services
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

@@ -1,0 +1,51 @@
+@model List<Order>
+
+<div class="container">
+
+    <h2 class="mb-4">📦 All Orders</h2>
+
+    <div class="mb-3">
+        <a asp-controller="Orders" asp-action="Create" class="btn btn-success">
+            + Place New Order
+        </a>
+    </div>
+
+    <div class="card p-3">
+
+        <table class="table table-hover">
+
+            <thead class="table-dark">
+                <tr>
+                    <th>Order ID</th>
+                    <th>User ID</th>
+                    <th>Order Date</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var order in Model)
+                    {
+                        <tr>
+                            <td>@order.Id</td>
+                            <td>@order.UserId</td>
+                            <td>@order.OrderDate.ToString("dd MMM yyyy")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="3" class="text-center text-muted">
+                            No orders found
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>

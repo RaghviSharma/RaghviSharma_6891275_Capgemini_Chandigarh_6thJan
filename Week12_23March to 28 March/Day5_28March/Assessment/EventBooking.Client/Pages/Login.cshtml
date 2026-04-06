@@ -1,0 +1,91 @@
+@page
+<h2 class="text-center mt-4">Login</h2>
+
+<div class="container d-flex justify-content-center mt-4">
+    <div class="card border-0 shadow col-md-4 p-4 rounded-4 fade-in-up">
+        <div id="errorMsg" class="alert alert-danger" style="display:none;"></div>
+
+        <div class="mb-3">
+            <label class="form-label">Login as:</label>
+            <select id="role" class="form-control">
+                <option value="">-- Select --</option>
+                <option value="admin">Admin</option>
+                <option value="user">User</option>
+            </select>
+        </div>
+
+        <input id="user" class="form-control m-2" placeholder="Username" />
+        <input id="pass" type="password" class="form-control m-2" placeholder="Password" />
+
+        <button class="btn btn-dark w-100" onclick="login()">Login</button>
+        <hr />
+
+        <p class="text-center">
+            Don't have an account? <a href="/Register" class="btn btn-link p-0">Register here</a>
+        </p>
+
+        <p class="text-muted small">
+            <b>Demo Admin Account:</b><br/>
+            Username: admin<br/>
+            Password: 123
+        </p>
+    </div>
+</div>
+
+<script>
+function login(){
+    const role = document.getElementById("role").value;
+    const username = document.getElementById("user").value;
+    const password = document.getElementById("pass").value;
+    const errorMsg = document.getElementById("errorMsg");
+
+    errorMsg.style.display = "none";
+
+    if(!role) {
+        showError("Please select Admin or User");
+        return;
+    }
+
+    if (!username || !password) {
+        showError("Please enter username and password");
+        return;
+    }
+
+    // Prepare credentials based on role
+    let credentials = {
+        username: username,
+        password: password
+    };
+
+    fetch("http://localhost:5003/api/auth/login", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify(credentials)
+    })
+    .then(res => {
+        if(!res.ok) {
+            return res.json().then(data => {
+                throw new Error(data.message || "Login failed");
+            });
+        }
+        return res.json();
+    })
+    .then(data => {
+        localStorage.setItem("token", data.token);
+        localStorage.setItem("role", data.role);
+        localStorage.setItem("username", data.username);
+        localStorage.setItem("userId", data.userId || "");
+        alert("✅ Login Successful as " + data.role);
+        window.location.href = "/Events";
+    })
+    .catch(err => {
+        showError(err.message);
+    });
+}
+
+function showError(message) {
+    const errorMsg = document.getElementById("errorMsg");
+    errorMsg.textContent = "❌ " + message;
+    errorMsg.style.display = "block";
+}
+</script>

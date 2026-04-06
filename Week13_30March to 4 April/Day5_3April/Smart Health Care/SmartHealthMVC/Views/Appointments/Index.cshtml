@@ -1,0 +1,49 @@
+@model List<Appointments>
+
+<h3 class="mb-4">All Appointments</h3>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Appointment ID</th>
+            <th>Appointment Time</th>
+            <th>Status</th>
+            <th>Doctor Name</th>
+            <th>Doctor Phone</th>
+            <th>Patient Name</th>
+            <th>Patient Problem</th>
+            <th>Actions</th> <!-- NEW -->
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach(var a in Model)
+            {
+                <tr>
+                    <td>@a.AppointmentId</td>
+                    <td>@a.AppointmentTime.ToString("g")</td>
+                    <td>@a.Status</td>
+                    <td>@a.Doctor?.Name</td>
+                    <td>@a.Doctor?.PhoneNumber</td>
+                    <td>@a.Patient?.Name</td>
+                    <td>@a.Patient?.Problem</td>
+
+                    <td>
+                        <form asp-controller="Appointments" asp-action="Delete" method="post">
+                            <input type="hidden" name="id" value="@a.AppointmentId" />
+                            <button type="submit" class="btn btn-danger btn-sm"
+                                    onclick="return confirm('Delete this appointment?')">
+                                Delete
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr><td colspan="8" class="text-center">No appointments found.</td></tr>
+        }
+    </tbody>
+</table>

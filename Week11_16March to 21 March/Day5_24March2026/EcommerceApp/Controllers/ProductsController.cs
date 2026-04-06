@@ -47,9 +47,51 @@ public class ProductsController : Controller
 			return RedirectToAction("Index");
 		}
 
-		// 🔥 MUST ADD THIS
 		ViewBag.Categories = new SelectList(_context.Categories, "CategoryId", "Name");
+		return View(product);
+	}
+
+	// EDIT PRODUCT
+	public IActionResult Edit(int id)
+	{
+		var product = _context.Products.Find(id);
+		if (product == null) return NotFound();
+	
+		ViewBag.Categories = new SelectList(_context.Categories, "CategoryId", "Name", product.CategoryId);
+		return View(product);
+	}
+
+	[HttpPost]
+	public IActionResult Edit(Product product)
+	{
+		if (!ModelState.IsValid)
+		{
+			ViewBag.Categories = new SelectList(_context.Categories, "CategoryId", "Name", product.CategoryId);
+			return View(product);
+		}
+
+		_context.Products.Update(product);
+		_context.SaveChanges();
+		return RedirectToAction("Index");
+	}
+
+	// DELETE PRODUCT
+	public IActionResult Delete(int id)
+	{
+		var product = _context.Products.Find(id);
+		if (product == null) return NotFound();
 
 		return View(product);
+	}
+
+	[HttpPost, ActionName("Delete")]
+	public IActionResult DeleteConfirmed(int id)
+	{
+		var product = _context.Products.Find(id);
+		if (product == null) return NotFound();
+
+		_context.Products.Remove(product);
+		_context.SaveChanges();
+		return RedirectToAction("Index");
 	}
 }

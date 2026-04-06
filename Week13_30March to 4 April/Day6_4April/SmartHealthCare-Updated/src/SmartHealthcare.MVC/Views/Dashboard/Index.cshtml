@@ -1,0 +1,157 @@
+@{
+    ViewData["Title"] = "Dashboard";
+    var role = ViewBag.Role as string;
+    var fullName = ViewBag.FullName as string;
+}
+
+<div class="container-fluid mt-4">
+
+    <!-- HERO -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="hero-box">
+                <h1 class="display-5 fw-bold">
+                    Welcome, <strong>@fullName</strong> 👋
+                </h1>
+
+                <p class="mt-2">
+                    You're logged in as:
+                    <span class="badge bg-info">@role</span>
+                </p>
+
+                <p class="text-white-50">
+                    Smart Healthcare Management System — Your gateway to quality healthcare
+                </p>
+            </div>
+        </div>
+    </div>
+
+    @* ✅ IMPORTANT: SINGLE CONTINUOUS IF-ELSE BLOCK *@
+    @if (role == "Admin")
+    {
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <div class="card p-3 text-center">
+                    <i class="fa fa-users fa-2x text-info mb-2"></i>
+                    <h6>Users</h6>
+                    <a href="@Url.Action("Users","Admin")" class="btn btn-outline-light btn-sm mt-2">Manage</a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card p-3 text-center">
+                    <i class="fa fa-user-doctor fa-2x text-success mb-2"></i>
+                    <h6>Doctors</h6>
+                    <a href="@Url.Action("Index","Doctor")" class="btn btn-outline-light btn-sm mt-2">View</a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card p-3 text-center">
+                    <i class="fa fa-user fa-2x text-warning mb-2"></i>
+                    <h6>Patients</h6>
+                    <a href="@Url.Action("Index","Appointment")" class="btn btn-outline-light btn-sm mt-2">View</a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card p-3 text-center">
+                    <i class="fa fa-calendar-check fa-2x text-danger mb-2"></i>
+                    <h6>Appointments</h6>
+                    <a href="@Url.Action("Index","Appointment")" class="btn btn-outline-light btn-sm mt-2">View</a>
+                </div>
+            </div>
+
+        </div>
+    }
+    else if (role == "Doctor")
+    {
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <h5>My Appointments</h5>
+                    <p class="text-white-50">View your schedule</p>
+                    <a href="@Url.Action("Index","Appointment")" class="btn btn-outline-light">Go</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <h5>My Profile</h5>
+                    <p class="text-white-50">Update info</p>
+                    <a href="@Url.Action("Profile","Patient")" class="btn btn-outline-light">Edit</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <h5>Prescriptions</h5>
+                    <p class="text-white-50">Manage Rx</p>
+                    <button class="btn btn-outline-light">View</button>
+                </div>
+            </div>
+
+        </div>
+    }
+    else if (role == "Patient")
+    {
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <h5>Book Appointment</h5>
+                    <p class="text-white-50">Schedule a visit</p>
+                    <a href="@Url.Action("Create","Appointment")" class="btn btn-outline-light">Book</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <h5>My Appointments</h5>
+                    <p class="text-white-50">View schedule</p>
+                    <a href="@Url.Action("Index","Appointment")" class="btn btn-outline-light">View</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <h5>My Profile</h5>
+                    <p class="text-white-50">Update info</p>
+                    <a href="@Url.Action("Profile","Patient")" class="btn btn-outline-light">Edit</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card mt-4 p-4 text-center">
+            <h5>Browse Doctors</h5>
+            <p class="text-white-50">Find qualified doctors easily</p>
+            <a href="@Url.Action("Index","Doctor")" class="btn btn-primary">Find Doctor</a>
+        </div>
+    }
+
+</div>
+
+<style>
+
+/* HERO */
+.hero-box {
+    background: linear-gradient(135deg, #1e293b, #020617);
+    color: white;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+/* CARD HOVER */
+.card:hover {
+    transform: translateY(-6px);
+}
+
+/* TEXT */
+.text-white-50 {
+    color: #cbd5f5 !important;
+}
+
+</style>

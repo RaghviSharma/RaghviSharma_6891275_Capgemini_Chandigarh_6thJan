@@ -1,0 +1,57 @@
+@model List<Customer>
+
+<div class="container">
+
+    <!-- 🔹 Title -->
+    <div class="text-center mb-4">
+        <h1 class="fw-bold">👥 Customers</h1>
+        <p class="text-muted">Manage customer details easily</p>
+    </div>
+
+    <!-- 🔹 Add Button -->
+    <div class="text-center mb-4">
+        <a asp-action="Create" class="btn btn-primary px-4">
+            ➕ Add Customer
+        </a>
+    </div>
+
+    <!-- 🔹 Table Card -->
+    <div class="card shadow-sm p-3">
+
+        <table class="table table-hover align-middle">
+
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+
+            <tbody class="text-center">
+
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var c in Model)
+                    {
+                        <tr>
+                            <td>@c.Id</td>
+                            <td class="fw-semibold">@c.Name</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="2" class="text-muted">
+                            No customers available
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>

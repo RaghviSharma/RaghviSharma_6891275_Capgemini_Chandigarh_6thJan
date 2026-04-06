@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EventBooking.Client</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/EventBooking.Client.styles.css" asp-append-version="true" />
+
+    <style>
+        .premium-navbar {
+            background: linear-gradient(90deg, #0f172a, #1e293b, #334155);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+            padding: 0.9rem 0;
+        }
+
+        .brand-logo {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #fff !important;
+            letter-spacing: 0.5px;
+        }
+
+        .premium-navbar .nav-link {
+            color: #e2e8f0 !important;
+            font-weight: 500;
+            margin: 0 10px;
+            transition: 0.3s ease;
+        }
+
+        .premium-navbar .nav-link:hover {
+            color: #60a5fa !important;
+            transform: translateY(-1px);
+        }
+
+        .premium-btn {
+            border-radius: 30px;
+            padding: 8px 18px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .premium-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+        }
+
+        .logout-fixed {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            border-radius: 30px;
+            padding: 10px 18px;
+            box-shadow: 0 8px 20px rgba(220, 53, 69, 0.25);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg premium-navbar">
+            <div class="container">
+                <a class="navbar-brand brand-logo" asp-area="" asp-page="/Index">
+                    🎟 EventBooking
+                </a>
+
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto ms-4">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Events">Events</a>
+                        </li>
+                        <li class="nav-item" id="myBookingsNav" style="display:none;">
+                            <a class="nav-link" href="/MyBookings">My Bookings</a>
+                        </li>
+                        <li class="nav-item" id="adminDashboardNav" style="display:none;">
+                            <a class="nav-link" href="/AdminDashboard">📊 Admin Dashboard</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex gap-2 align-items-center">
+                        <div id="userInfo" style="display:none;">
+                            <span class="text-light me-3">
+                                👤 <span id="userDisplay"></span> 
+                                <span id="roleDisplay" class="badge bg-info"></span>
+                            </span>
+                        </div>
+
+                        <div id="loginBtnGroup">
+                            <a href="/Login" class="btn btn-outline-light premium-btn">Login</a>
+                            <a href="/Register" class="btn btn-primary premium-btn">Register</a>
+                        </div>
+
+                        <button id="logoutBtn" class="btn btn-danger premium-btn" onclick="logout()" style="display:none;">
+                            Logout
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-4">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted mt-5 py-4 bg-gradient">
+        <div class="container text-center">
+            <p class="mb-2">&copy; 2026 - EventBooking | All Rights Reserved</p>
+            <p class="small text-muted">Built with ❤️ for seamless event experiences</p>
+        </div>
+    </footer>
+
+    <script>
+        // Check if user is logged in and update navbar
+        window.addEventListener('load', function() {
+            updateNavBar();
+        });
+
+        function updateNavBar() {
+            const token = localStorage.getItem("token");
+            const username = localStorage.getItem("username");
+            const role = localStorage.getItem("role");
+
+            const userInfo = document.getElementById("userInfo");
+            const loginBtnGroup = document.getElementById("loginBtnGroup");
+            const logoutBtn = document.getElementById("logoutBtn");
+            const myBookingsNav = document.getElementById("myBookingsNav");
+            const adminDashboardNav = document.getElementById("adminDashboardNav");
+
+            if (token && username) {
+                userInfo.style.display = "block";
+                loginBtnGroup.style.display = "none";
+                logoutBtn.style.display = "block";
+                
+                if (role === "User") {
+                    myBookingsNav.style.display = "block";
+                    adminDashboardNav.style.display = "none";
+                } else if (role === "Admin") {
+                    myBookingsNav.style.display = "none";
+                    adminDashboardNav.style.display = "block";
+                }
+
+                document.getElementById("userDisplay").textContent = username;
+                document.getElementById("roleDisplay").textContent = role;
+            } else {
+                userInfo.style.display = "none";
+                loginBtnGroup.style.display = "block";
+                logoutBtn.style.display = "none";
+                myBookingsNav.style.display = "none";
+                adminDashboardNav.style.display = "none";
+            }
+        }
+
+        function logout() {
+            localStorage.removeItem("token");
+            localStorage.removeItem("username");
+            localStorage.removeItem("role");
+            localStorage.removeItem("userId");
+            alert("✅ Logged out successfully");
+            window.location.href = "/";
+        }
+    </script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

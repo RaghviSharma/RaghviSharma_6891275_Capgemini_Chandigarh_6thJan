@@ -1,5 +1,5 @@
 // API Client configuration
-const API_BASE_URL = 'https://localhost:7001';
+const API_BASE_URL = 'http://localhost:5010';
 
 class ApiClient {
     constructor(baseUrl = API_BASE_URL) {

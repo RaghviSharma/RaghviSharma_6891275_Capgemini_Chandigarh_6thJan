@@ -1,0 +1,111 @@
+@model SmartHealthcare.Models.DTOs.CreatePrescriptionDTO
+@{
+    ViewData["Title"] = "Create Prescription";
+    var appointment = ViewBag.Appointment as SmartHealthcare.Models.DTOs.AppointmentDTO;
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card border-0 shadow-lg">
+                <div class="card-header bg-success text-white p-4">
+                    <h3 class="mb-0"><i class="bi bi-prescription"></i> Create Prescription</h3>
+                </div>
+                <div class="card-body p-4">
+                    @if (appointment != null)
+                    {
+                        <div class="alert alert-info">
+                            <strong>Appointment:</strong> @appointment.Id - @appointment.PatientName with Dr. @appointment.DoctorName
+                        </div>
+                    }
+
+                    <form asp-action="Create" method="post">
+                        <input type="hidden" asp-for="AppointmentId" />
+
+                        <div class="mb-3">
+                            <label asp-for="Diagnosis" class="form-label">Diagnosis <span class="text-danger">*</span></label>
+                            <textarea asp-for="Diagnosis" class="form-control" rows="3" placeholder="Enter diagnosis details"></textarea>
+                            <span asp-validation-for="Diagnosis" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Notes" class="form-label">Additional Notes</label>
+                            <textarea asp-for="Notes" class="form-control" rows="2" placeholder="Any additional notes"></textarea>
+                        </div>
+
+                        <div id="medicines-container">
+                            <h5 class="mb-3"><i class="bi bi-capsule"></i> Medicines</h5>
+                            <div id="medicines-list">
+                                <!-- Medicines will be added here -->
+                            </div>
+                            <button type="button" class="btn btn-outline-primary" id="add-medicine-btn">
+                                <i class="bi bi-plus-circle"></i> Add Medicine
+                            </button>
+                        </div>
+
+                        <div class="d-flex gap-2 mt-4">
+                            <button type="submit" class="btn btn-success">
+                                <i class="bi bi-check-circle"></i> Create Prescription
+                            </button>
+                            <a href="@Url.Action("Details", "Appointment", new { id = Model.AppointmentId })" class="btn btn-outline-secondary">
+                                <i class="bi bi-arrow-left"></i> Cancel
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        let medicineIndex = 0;
+
+        document.getElementById('add-medicine-btn').addEventListener('click', function() {
+            addMedicine();
+        });
+
+        function addMedicine() {
+            const container = document.getElementById('medicines-list');
+            const medicineHtml = `
+                <div class="medicine-item border rounded p-3 mb-3 bg-light">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="form-label">Medicine Name <span class="text-danger">*</span></label>
+                            <input type="text" name="Medicines[${medicineIndex}].Name" class="form-control" required />
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Dosage <span class="text-danger">*</span></label>
+                            <input type="text" name="Medicines[${medicineIndex}].Dosage" class="form-control" placeholder="e.g., 500mg" required />
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-6">
+                            <label class="form-label">Duration <span class="text-danger">*</span></label>
+                            <input type="text" name="Medicines[${medicineIndex}].Duration" class="form-control" placeholder="e.g., 7 days" required />
+                        </div>
+                        <div class="col-md-5">
+                            <label class="form-label">Instructions</label>
+                            <input type="text" name="Medicines[${medicineIndex}].Instructions" class="form-control" placeholder="e.g., Take after meals" />
+                        </div>
+                        <div class="col-md-1 d-flex align-items-end">
+                            <button type="button" class="btn btn-outline-danger btn-sm" onclick="removeMedicine(this)">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.insertAdjacentHTML('beforeend', medicineHtml);
+            medicineIndex++;
+        }
+
+        function removeMedicine(button) {
+            button.closest('.medicine-item').remove();
+        }
+
+        // Add one medicine by default
+        addMedicine();
+    </script>
+}

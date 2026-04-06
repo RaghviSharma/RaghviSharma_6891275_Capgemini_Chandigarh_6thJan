@@ -2,6 +2,9 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Force RazorPages to a non-blocked local port
+builder.WebHost.UseUrls("http://localhost:5011");
+
 // Add services
 builder.Services.AddRazorPages();
 builder.Services.AddHttpClient();

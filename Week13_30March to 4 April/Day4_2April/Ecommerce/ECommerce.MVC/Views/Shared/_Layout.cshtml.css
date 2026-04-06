@@ -1,0 +1,38 @@
+﻿body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🔹 Heading */
+h1 {
+    font-weight: 700;
+}
+
+/* 🔹 Cards (like your 2nd image) */
+.card {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* 🔹 Buttons */
+.btn {
+    border-radius: 8px;
+}
+
+/* 🔹 Center content */
+.center-box {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+/* 🔹 Navbar links spacing */
+.nav-link {
+    margin-left: 15px;
+}
